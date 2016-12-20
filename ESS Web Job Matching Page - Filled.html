@@ -1,0 +1,1860 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ESS Web Job Matching Page - Filled</title>
+<link href="css/style-sheet.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body class="cc-green" data-zarn="JobSeeker" data-zcn="CareerProfile" data-zan="JobMatching" data-cbs="EPS5|DEPT|USRS|JobSeeker|CareerProfile|JobMatching">
+<noscript>
+&lt;div id="msgNojs"&gt;&lt;a href="http://enable-javascript.com/" target="_blank" title="This site requires JavaScript. Click here for instructions on enabling it in your browser. (opens in a new window)"&gt;This site requires JavaScript. Click here for instructions on enabling it in your browser.&lt;/a&gt;&lt;/div&gt;
+</noscript>
+<div class="fade in hide" id="page-loader"><span class="spinner"></span></div>
+<div class="readers" id="skipLinks">
+  <ul>
+    <li><a href="#">skip to content</a></li>
+    <li><a href="#">skip to section navigation</a></li>
+  </ul>
+</div>
+<div class="fade page-sidebar-fixed page-header-fixed page-with-two-sidebar in" id="page-container">
+  <div class="header navbar navbar-inverse navbar-fixed-top" id="header" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <div class="navbar-brand bg-green fg-white"> <a title="ESS Web" href="#"><img alt="ESS Web logo" src="img/ess-web-logo.png"></a> </div>
+        <div class="orgsitepicker"> <span class="navbar-text"><a class="sitepicker-launch" href="#">Org: <span class="badge badge-success">DEPT</span>, Site: <span class="badge badge-success">USRS</span><span class="readers">(Opens the site picker)</span></a> </span>
+          <div class="sitepicker">
+            <div class="row">
+              <div class="col-xs-12 col-lg-12 col-xl-12 islogical islogical" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+                <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-RealInfo" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+                  <div id="InnerContainerFor-RealInfo" data-zdn="RealInfo">
+                    <h4>Primary Org/Site</h4>
+                    <dl>
+                      <dt>Org</dt>
+                      <dd>(DEPT) Department</dd>
+                      <dt>Site</dt>
+                      <dd>(USRS) IES National Office User attachment Site</dd>
+                    </dl>
+                    <h4>Current Org/Site</h4>
+                  </div>
+                  <!--column size div tag for property--> 
+                </div>
+                <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-EffectiveOrg" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+                  <label class="control-label " for="EffectiveOrg">Org</label>
+                  <a class="errorTip" role="presentation" style="display: none;" href="javascript:;" data-zet="EffectiveOrg"><span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="EffectiveOrg"></span></a>
+                  <div id="InnerContainerFor-EffectiveOrg">
+                    <select name="EffectiveOrg" class="rhea-ajax" id="EffectiveOrg" style="display: none;" multiple="multiple" data-zdn="Org" data-zu="#" data-zrot="disabled" data-zp="" data-zlz="true" data-zict="true"
+                        data-zfp="" data-zcroi='[{"DependentProperty":"ReadOnlyOrg","ComparisonType":"EqualTo","DependentValue":true,"PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]'>
+                      <option selected="selected" value="DEPT">(DEPT) Department</option>
+                    </select>
+                    <div class="amc-aria-multi-complete single-select">
+                      <input class="form-control" style="display: none;" aria-label="Org" type="text" readonly>
+                      <div tabindex="0" class="amc-box form-control" role="application" aria-expanded="false"><i class="fa fa-search right-icon"></i><span class="reader-only" id="amc-0-selected-label">Selected values for autocomplete Org. Press enter to view list options.</span>
+                        <ul class="amc-selected-choices" aria-labelledby="amc-0-selected-label">
+                          <li id="amc-0-c0" role="option" data-value="DEPT"><span>(DEPT) Department</span>
+                            <button type="button"><span aria-hidden="true"> × </span><span class="reader-only">Remove (DEPT) Department</span></button>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="amc-listbox" style="display: none;">
+                        <input class="form-control" role="combobox" aria-multiselectable="true" aria-activedescendant="" aria-owns="amc-0-list" aria-autocomplete="list" aria-label="Select Org, start typing then use tab key so access values" type="text">
+                        <div
+                            class="amc-list-substitute" aria-hidden="true" style="display: none;">Loading...</div>
+                        <div class="amc-list-substitute" aria-hidden="true" style="display: none;">No matches</div>
+                        <div class="amc-list-substitute" aria-hidden="true" style="display: none;">Error</div>
+                        <ul class="amc-all-choices" id="amc-0-list" style="display: none;">
+                        </ul>
+                        <div tabindex="0" class="reader-only"></div>
+                      </div>
+                      <div class="reader-only" aria-live="assertive" aria-relevant="additions"><span></span></div>
+                    </div>
+                  </div>
+                  <!--column size div tag for property--> 
+                </div>
+                <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-EffectiveSite" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+                  <label class="control-label " for="EffectiveSite">Site</label>
+                  <a class="errorTip" role="presentation" style="display: none;" href="javascript:;" data-zet="EffectiveSite"><span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="EffectiveSite"></span></a>
+                  <div id="InnerContainerFor-EffectiveSite">
+                    <select name="EffectiveSite" class="rhea-ajax" id="EffectiveSite" style="display: none;" multiple="multiple" data-zdn="Site" data-zu="#" data-zrot="disabled" data-zp="EffectiveOrg" data-zlz="true"
+                      data-zict="true" data-zfp="">
+                      <option selected="selected" value="USRS">(USRS) IES National Office User attachment Site</option>
+                    </select>
+                    <div class="amc-aria-multi-complete single-select">
+                      <input class="form-control" style="display: none;" aria-label="Site" type="text" readonly>
+                      <div tabindex="0" class="amc-box form-control" role="application" aria-expanded="false"><i class="fa fa-search right-icon"></i><span class="reader-only" id="amc-1-selected-label">Selected values for autocomplete Site. Press enter to view list options.</span>
+                        <ul class="amc-selected-choices" aria-labelledby="amc-1-selected-label">
+                          <li id="amc-1-c0" role="option" data-value="USRS"><span>(USRS) IES National Office User attachment Site</span>
+                            <button type="button"><span aria-hidden="true"> × </span><span class="reader-only">Remove (USRS) IES National Office User attachment Site</span></button>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="amc-listbox" style="display: none;">
+                        <input class="form-control" role="combobox" aria-multiselectable="true" aria-activedescendant="" aria-owns="amc-1-list" aria-autocomplete="list" aria-label="Select Site, start typing then use tab key so access values" type="text">
+                        <div
+                          class="amc-list-substitute" aria-hidden="true" style="display: none;">Loading...</div>
+                        <div class="amc-list-substitute" aria-hidden="true" style="display: none;">No matches</div>
+                        <div class="amc-list-substitute" aria-hidden="true" style="display: none;">Error</div>
+                        <ul class="amc-all-choices" id="amc-1-list" style="display: none;">
+                        </ul>
+                        <div tabindex="0" class="reader-only"></div>
+                      </div>
+                      <div class="reader-only" aria-live="assertive" aria-relevant="additions"><span></span></div>
+                    </div>
+                  </div>
+                  <!--column size div tag for property--> 
+                </div>
+                <div class="panel-footer">
+                  <div class="txtR noPad nestedButtons">
+                    <button name="submitType" class="btn-inverse btn" type="submit" value="Reset to Primary">Reset to Primary</button>
+                    <button name="submitType" class="btn-inverse btn" type="submit" value="Submit">Submit</button>
+                  </div>
+                </div>
+                <!--panel-footer --> 
+              </div>
+              <!--Closing DIV for Visible/Hidden for group fieldset--> 
+            </div>
+            <!--Row Div-->
+            <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-ReadOnlyOrg" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+              <div id="InnerContainerFor-ReadOnlyOrg">
+                <input name="ReadOnlyOrg" id="ReadOnlyOrg" type="hidden" value="False" data-val-required="The ReadOnlyOrg field is required." data-val="true">
+              </div>
+            </div>
+            <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-UrlTemplate" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+              <div id="InnerContainerFor-UrlTemplate">
+                <input name="UrlTemplate" id="UrlTemplate" type="hidden" value="#">
+              </div>
+            </div>
+            <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-RealOrg" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+              <div id="InnerContainerFor-RealOrg">
+                <input name="RealOrg" id="RealOrg" type="hidden" value="DEPT">
+              </div>
+            </div>
+            <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-RealSite" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+              <div id="InnerContainerFor-RealSite">
+                <input name="RealSite" id="RealSite" type="hidden" value="USRS">
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="environment">TEST</span>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown"><a title="Help (Opens in a new window)" class="dropdown-link" href="#" target="_blank"><span class="readers">Ess Web Help (Opens in a new window)</span> <i class="fa fa-lg fa-question" aria-hidden="true"></i></a></li>
+          <li class="dropdown"><a title="Additional Resources" class="dropdown-toggle  f-s-14" href="javascript:;" data-toggle="dropdown"><span class="readers">Additional Resources (Opens a list below)</span><i class="fa fa-list" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu media-list pull-right animated fadeInDown notification  ">
+              <li class="dropdown-header">
+                <h5>Additional Resources</h5>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">Accessibility</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">Privacy</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">ESS Web System Support</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a title="Provider Portal (opens in a new window)" href="https://ecsnaccess.gov.au/sites/securesiteportal/" target="_blank">Provider Portal<span class="readers"> (opens in a new window)</span></a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a title="CM Dashboard (opens in a new window)" href="http://provider360.edc.hosts.testnetwork/ " target="_blank">CM Dashboard<span class="readers"> (opens in a new window)</span></a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a title="Learning Centre (opens in a new window)" href="https://ecsnaccess.gov.au/sites/learningcentre/EmploymentServices/Pages/home.aspx" target="_blank">Learning Centre</a></div>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown"><a title="Knowledge Base (Opens in a new window)" class="dropdown-link" href="https://sts.dev.construction.enet:443/adfs/ls?wa=wsignin1.0&amp;wtrealm=urn%3amvc%3akb%3adev&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252f&amp;whr=http%3a%2f%2fsts.application.enet%2fadfs%2fservices%2ftrust"
+            target="_blank"><span class="readers">Knowledge Base (Opens in a new window)</span> <i class="fa fa-lg fa-lightbulb-o" aria-hidden="true"></i></a></li>
+          <li class="dropdown"><a title="Bulletins" class="dropdown-toggle  f-s-14" href="javascript:;" data-toggle="dropdown"><span class="readers">Bulletins (Opens a list below)</span><i class="fa fa-bullhorn" aria-hidden="true"></i><span class="label">0</span></a>
+            <ul class="dropdown-menu media-list pull-right animated fadeInDown notification bulletins scrollable ">
+              <li class="dropdown-header">
+                <h5>Bulletins (0)</h5>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">9/09/2016 Test Friday 09 September 2016</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">9/09/2016 Test Bulletin JM3355</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">9/09/2016 wb0091 - another test</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">24/08/2016 ESAt/JCA Bulletin Only</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">24/08/2016 HLS5 Bulletin Only</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">24/08/2016 NEI5 Bulletin Only</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">24/08/2016 WDC5 Bulletin Only</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">24/08/2016 TTW5 Only Bulletin</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">24/08/2016 SPP5 Only Bulletin</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">22/08/2016 ASDF</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">View All Bulletins</a></div>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown"><a title="Noticeboard" class="dropdown-toggle  f-s-14" href="javascript:;" data-toggle="dropdown"><span class="readers">Noticeboard (Opens a list below)</span><i class="fa fa-bell" aria-hidden="true"></i><span class="label">0</span></a>
+            <ul class="dropdown-menu media-list pull-right animated fadeInDown notification  scrollable ">
+              <li class="dropdown-header">
+                <h5>Noticeboard (0)</h5>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">0</span></a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">0</span></a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">0</span></a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">0</span></a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">0</span></a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="#">0</span></a></div>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown"><a title="Invitations" class="dropdown-toggle  f-s-14" href="javascript:;" data-toggle="dropdown"><span class="readers">Invitations (Opens a list below)</span><i class="fa fa-inbox" aria-hidden="true"></i><span class="label">0</span></a>
+            <ul class="dropdown-menu media-list pull-right animated fadeInDown notification  scrollable ">
+              <li class="dropdown-header">
+                <h5>Invitations (0)</h5>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown"><a title="Settings" class="dropdown-toggle f-s-14" href="javascript:;" data-toggle="settings-dropdown"><span class="readers">Settings (Opens a list below)</span><i class="fa fa-cogs" aria-hidden="true"></i></a>
+            <div class="hidden settings dropdown-menu"><span class="dropdown-header">
+              <h5>Settings</h5>
+              </span>
+              <form action="#" method="post" novalidate autocomplete="off">
+                <div class="row">
+                  <div class="col-xs-12 col-lg-12 col-xl-12 islogical islogical" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+                    <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-FixedHeader" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+                      <label class="control-label " for="FixedHeader">Fixed Height?<span class="readers">value is On, uncheck to select Off</span></label>
+                      <a class="errorTip" role="presentation" style="display: none;" href="javascript:;" data-zet="FixedHeader"><span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="FixedHeader"></span></a> <a class="hintTip" role="presentation" href="javascript:;"><span>Help tip: Fixed Height? <br>
+                      Whether to enable fixed height panels</span></a>
+                      <div id="InnerContainerFor-FixedHeader">
+                        <input name="FixedHeader" class="readers" id="FixedHeader" type="checkbox" checked="checked" value="true" data-zdn="Fixed Height?" data-zrot="disabled" data-zsu="Off" data-zsc="On" data-zs="true" data-bg="bg-green">
+                        <div class="switcher"
+                        aria-hidden="true"><span class="left bg-green">On</span><span class="right bg-green covered">Off</span><span class="centre" style="left: 55px;"></span></div>
+                        <input name="FixedHeader" type="hidden" value="false">
+                      </div>
+                      <!--column size div tag for property--> 
+                    </div>
+                    <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-ResponsiveTable" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+                      <label class="control-label " for="ResponsiveTable">Responsive Table?<span class="readers">value is On, uncheck to select Off</span></label>
+                      <a class="errorTip" role="presentation" style="display: none;" href="javascript:;" data-zet="ResponsiveTable"><span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="ResponsiveTable"></span></a> <a class="hintTip" role="presentation" href="javascript:;"><span>Help tip: Responsive Table? <br>
+                      Whether to enable table responsiveness</span></a>
+                      <div id="InnerContainerFor-ResponsiveTable">
+                        <input name="ResponsiveTable" class="readers" id="ResponsiveTable" type="checkbox" checked="checked" value="true" data-zdn="Responsive Table?" data-zrot="disabled" data-zsu="Off" data-zsc="On" data-zs="true" data-bg="bg-green">
+                        <div
+                        class="switcher" aria-hidden="true"><span class="left bg-green">On</span><span class="right bg-green covered">Off</span><span class="centre" style="left: 55px;"></span></div>
+                        <input name="ResponsiveTable" type="hidden" value="false">
+                      </div>
+                      <!--column size div tag for property--> 
+                    </div>
+                    <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-ColourScheme" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+                      <fieldset class="fieldset-group">
+                        <legend>
+                        <label class="control-label " for="ColourScheme">Colour scheme</label>
+                        <a class="errorTip" role="presentation" style="display: none;" href="javascript:;" data-zet="ColourScheme"><span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="ColourScheme"></span></a> </legend>
+                        <div id="InnerContainerFor-ColourScheme">
+                          <input name="ColourScheme" id="ColourScheme" type="radio" checked="checked" value="Default" data-zdn="Colour scheme" data-zrot="disabled" data-zrbg="True">
+                          <label for="ColourScheme">Default</label>
+                          <input name="ColourScheme" id="ColourScheme-1"
+                        type="radio" value="Dark" data-zdn="Colour scheme" data-zrot="disabled" data-zrbg="True">
+                          <label for="ColourScheme-1">Dark</label>
+                          <input name="ColourScheme" id="ColourScheme-2" type="radio" value="Black" data-zdn="Colour scheme" data-zrot="disabled"
+                        data-zrbg="True">
+                          <label for="ColourScheme-2">Black</label>
+                          <input name="ColourScheme" id="ColourScheme-3" type="radio" value="White" data-zdn="Colour scheme" data-zrot="disabled" data-zrbg="True">
+                          <label for="ColourScheme-3">White</label>
+                        </div>
+                        <!--column size div tag for property-->
+                      </fieldset>
+                    </div>
+                    <div class="panel-footer">
+                      <div class="txtR noPad nestedButtons">
+                        <button name="submitType" class="btn-inverse btn" type="submit" value="reset">Restore to default</button>
+                        <button name="submitType" class="btn-inverse btn" type="submit" value="apply">Apply</button>
+                      </div>
+                    </div>
+                    <!--panel-footer --> 
+                  </div>
+                  <!--Closing DIV for Visible/Hidden for group fieldset--> 
+                </div>
+                <!--Row Div-->
+                <input type="hidden" data-settings="true" data-value='{"FixedHeader":true,"ResponsiveTable":true,"ColourScheme":0}'>
+              </form>
+            </div>
+          </li>
+          <li class="dropdown navbar-user"> <a class="dropdown-toggle" href="javascript:;" data-toggle="dropdown"> <span class="hidden-xs">Francis Lee (FL2561_d)</span> <b class="caret" aria-hidden="true"></b> </a>
+            <ul class="dropdown-menu animated fadeInLeft">
+              <li class="arrow"></li>
+              <li><span class="navbar-text">Base Role: <span>DAD</span></span> </li>
+              <li><span class="navbar-text">System Date: <span id="system_date">18/11/2016</span></span> </li>
+              <span class="navbar-text">Last Logged On: <span> 17/11/2016 11:58:33 AM</span></span>
+              <li class="divider"></li>
+              <li><a href="#">Log Out</a></li>
+            </ul>
+          </li>
+          <li class="hidden-xs right-sidebar-toggler"> <a class="f-s-14" href="javascript:;" data-click="right-sidebar-toggled"> <span class="readers">Close right sidebar.</span> <i class="fa fa-th" aria-hidden="true"></i> </a> </li>
+        </ul>
+        <button class="navbar-toggle" type="button" data-click="sidebar-toggled"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- begin #sidebar -->
+  <div class="sidebar" id="sidebar" role="navigation" style="display: inline;"> 
+    <!--anchor for readers--> 
+    <a id="pagenav"></a> 
+    <!-- contract picker display/launch --> 
+    
+    <a title="jobactive" class="contract-picker-launch bg-green fg-white" href="javascript:;" data-zcty="EPS5"><i class="fa fa-2x contract-picker-launch-icon fa-user"></i> <span><span class="readers">Current contract</span><span>jobactive</span><b class="caret"></b><span class="readers">(Opens a list below)</span></span> </a> 
+    <!-- contract picker. Up here to avoid getting trapped by the slimscroll.-->
+    <ul class="dropdown-menu contract-picker-list media-list pull-left animated fadeInDown notification scrollable">
+      <li> <a class="contract-picker" href="#">
+        <div class="bg-blue widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-universal-access"></i></div>
+          <div class="stats-number">DES - Disability Management Service</div>
+        </div>
+        </a> </li>
+      <li> <a class="contract-picker" href="#">
+        <div class="bg-aqua widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-male-female"></i></div>
+          <div class="stats-number">DES - Employment Support Service</div>
+        </div>
+        </a> </li>
+      <li> <a class="contract-picker" href="#">
+        <div class="bg-purple widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fa fa-lightbulb-o"></i></div>
+          <div class="stats-number">NEIS New Enterprise Incentive Scheme</div>
+        </div>
+        </a> </li>
+      <li> <a class="contract-picker" href="#">
+        <div class="bg-violet widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fa fa-child"></i></div>
+          <div class="stats-number">ParentsNext</div>
+        </div>
+        </a> </li>
+      <li> <a class="contract-picker" href="#">
+        <div class="bg-magenta widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-shuffle"></i></div>
+          <div class="stats-number">Transition to Work</div>
+        </div>
+        </a> </li>
+    </ul>
+    <!--END contract picker -->
+    <div style="height: calc(100% - 54px);"> 
+      <!-- Menu filtering tools -->
+      <div class="menu-filter bg-green fg-white">
+        <div class="menu-filter-choices" data-background-class="bg-green-darker"> <a title="Filter by current contract" class="contract-menu-filter" href="javascript:;"><i class="fa fa-file-text" aria-hidden="true"></i><span class="readers">Filter menu items by current contract, not selected</span></a> <a title="Expand/collapse all" class="expand-collapse-menu-filter" href="javascript:;"><i class=" fa fa-angle-double-down" aria-hidden="true"></i><span class="readers">Expand all menu items</span></a> <a title="Filter menu items (Alt+S)" class="search-menu-filter" href="javascript:;"><i class=" fa fa-search" aria-hidden="true"></i><span class="readers">Filter menu items by search, not selected</span></a> </div>
+        <div class="search-menu-filter" style="display: none;">
+          <input name="search-menu-filter" title="Search menu items" class="form-control" id="search-menu-filter">
+        </div>
+      </div>
+      <div class="slimScrollDiv" style="width: auto; height: 100%; overflow: hidden; position: relative;">
+        <div style="width: auto; height: 100%; overflow: hidden;" data-height="100%" data-scrollbar="true"> 
+          <!-- Navigation Menu -->
+          <ul class="nav">
+            <li class="has-sub "><a title="Dashboard" href="javascript:;"><b class="caret pull-right"></b><span>Dashboard</span> <span class="readers">(Opens a list below)</span><i class="fa fa-area-chart"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Dashboard</li>
+                <li><a href="#"><span>Case Summary</span></a></li>
+                <li><a href="#"><span>Case Summary Timeline</span></a></li>
+                <li><a href="#"><span>Dashboard</span></a></li>
+                <li><a href="#"><span>Employment Region Summary</span></a></li>
+              </ul>
+            </li>
+            <li class="has-sub "><a title="Caseload" href="javascript:;"><b class="caret pull-right"></b><span>Caseload</span> <span class="readers">(Opens a list below)</span><i class="fa fa-briefcase"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Caseload</li>
+                <li><a href="#"><span>Caseload</span></a></li>
+                <li><a href="#"><span>Special Client Search</span></a></li>
+              </ul>
+            </li>
+            <li class="has-sub "><a title="Calendar" href="javascript:;"><b class="caret pull-right"></b><span>Calendar</span> <span class="readers">(Opens a list below)</span><i class="fa fa-calendar"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Calendar</li>
+                <li><a href="#"><span>Calendar</span></a></li>
+                <li><a href="#"><span>Diary Search</span></a></li>
+                <li><a href="#"><span>Create Appointment</span></a></li>
+                <li><a href="#"><span>Create Timeslot</span></a></li>
+                <li><a href="#"><span>Create Provider Event</span></a></li>
+                <li class="has-sub "><a title="Job Seeker Diary" href="javascript:;"><b class="caret pull-right"></b><span>Job Seeker Diary</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Job Seeker Diary</li>
+                    <li><a href="#"><span>Job Seeker Diary</span></a></li>
+                    <li><a href="#"><span>Create Schedule</span></a></li>
+                    <li><a href="#"><span>Job Seeker Administration</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a title="Diary Administration" href="javascript:;"><b class="caret pull-right"></b><span>Diary Administration</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Diary Administration</li>
+                    <li><a href="#"><span>Diary Addresses</span></a></li>
+                    <li><a href="#"><span>Diary Contact Phones</span></a></li>
+                    <li><a href="#"><span>Diary Appointment Durations</span></a></li>
+                    <li><a href="#"><span>Diary User Settings</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="has-sub active "><a title="Job Seeker" href="javascript:;"><b class="caret pull-right"></b><span>Job Seeker</span> <span class="readers">(Closes a list below)</span><i class="fa fa-user"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Job Seeker</li>
+                <li><a href="#"><span>Job Seeker Search</span></a></li>
+                <li><a href="#"><span>Fuzzy Search</span></a></li>
+                <li class="has-sub "><a title="Notifications" href="javascript:;"><b class="caret pull-right"></b><span>Notifications</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Notifications</li>
+                    <li><a href="#"><span>Notification List</span></a></li>
+                    <li><a href="#"><span>Notification Templates</span></a></li>
+                    <li><a href="#"><span>Create Third Party Appointment Notification</span></a></li>
+                    <li><a href="#"><span>Bulk Notification History</span></a></li>
+                    <li><a href="#"><span>Notification Maintenance</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub not-cc-valid "><a title="Ongoing Support" href="javascript:;"><b class="caret pull-right"></b><span>Ongoing Support</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Ongoing Support</li>
+                    <li class="not-cc-valid "><a href="#"><span>Ongoing Support Management</span></a></li>
+                    <li class="not-cc-valid "><a href="#"><span>Allocation Override</span></a></li>
+                    <li class="not-cc-valid "><a href="#"><span>Allocations</span></a></li>
+                    <li class="not-cc-valid "><a href="#"><span>Assessment Search</span></a></li>
+                    <li class="not-cc-valid "><a href="#"><span>Assessment</span></a></li>
+                    <li class="not-cc-valid "><a href="#"><span>Participant Assessment History</span></a></li>
+                    <li class="not-cc-valid "><a href="#"><span>NPA Provider Preference</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub not-cc-valid "><a title="Disability Employment Services" href="javascript:;"><b class="caret pull-right"></b><span>Disability Employment Services</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Disability Employment Services</li>
+                    <li class="not-cc-valid "><a href="#"><span>DES Funding Level</span></a></li>
+                    <li class="not-cc-valid "><a href="#"><span>DES Program Review</span></a></li>
+                    <li class="not-cc-valid "><a href="#"><span>DES Program Summary</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a title="Compliance" href="javascript:;"><b class="caret pull-right"></b><span>Compliance</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Compliance</li>
+                    <li><a href="#"><span>Search Compliance</span></a></li>
+                    <li><a href="#"><span>Compliance History</span></a></li>
+                    <li><a href="#"><span>Provider Re-engagement</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub active "><a title="Career Profile" href="javascript:;"><b class="caret pull-right"></b><span>Career Profile</span> <span class="readers">(Closes a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Career Profile</li>
+                    <li><a href="#"><span>Instant Job List</span></a></li>
+                    <li class="active "><a href="#"><span>Job Matching</span></a></li>
+                    <li><a href="#"><span>Career Profile and Resume</span></a></li>
+                    <li><a href="#"><span>Picture Admin</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><span>Comments</span></a></li>
+                <li class="not-cc-valid "><a href="#"><span>DES Anchor History</span></a></li>
+                <li class="not-cc-valid "><a href="#"><span>DES Participation Management</span></a></li>
+                <li class="not-cc-valid "><a href="#"><span>DES Performance Measures</span></a></li>
+                <li><a href="#"><span>Duplicate JobSeeker</span></a></li>
+                <li><a href="#"><span>Eligibility</span></a></li>
+                <li><a href="#"><span>ESAt/JCA Assessment</span></a></li>
+                <li class="not-cc-valid "><a href="#"><span>HLS Bulk Registration</span></a></li>
+                <li><a href="#"><span>Incident Report</span></a></li>
+                <li><a href="#"><span>Intervention Management Tool</span></a></li>
+                <li><a href="#"><span>Job Plan</span></a></li>
+                <li><a href="#"><span>Job Search Reporting</span></a></li>
+                <li><a href="#"><span>JSCI</span></a></li>
+                <li class="has-sub "><a title="Non Beneficiary Income Test" href="javascript:;"><b class="caret pull-right"></b><span>Non Beneficiary Income Test</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Non Beneficiary Income Test</li>
+                    <li><a href="#"><span>Income Test</span></a></li>
+                    <li><a href="#"><span>Income Test Thresholds</span></a></li>
+                  </ul>
+                </li>
+                <li class="not-cc-valid "><a href="#"><span>ParentsNext Registration History</span></a></li>
+                <li><a href="#"><span>Participation Events</span></a></li>
+                <li><a href="#"><span>Participation Profile</span></a></li>
+                <li><a href="#"><span>Phase Management</span></a></li>
+                <li class="has-sub not-cc-valid "><a title="Provider Exemptions" href="javascript:;"><b class="caret pull-right"></b><span>Provider Exemptions</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Provider Exemptions</li>
+                    <li class="not-cc-valid "><a href="#"><span>Exemption History</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><span>Referral</span></a></li>
+                <li><a href="#"><span>Referral History</span></a></li>
+                <li><a href="#"><span>Referral Support (admin only)</span></a></li>
+                <li><a href="#"><span>Registration</span></a></li>
+                <li><a href="#"><span>Suspensions and Volunteer Periods</span></a></li>
+                <li><a href="#"><span>Transfer</span></a></li>
+                <li><a href="#"><span>Transfer by Agreement</span></a></li>
+                <li><a href="#"><span>Vulnerability</span></a></li>
+              </ul>
+            </li>
+            <li class="has-sub "><a title="Activities" href="javascript:;"><b class="caret pull-right"></b><span>Activities</span> <span class="readers">(Opens a list below)</span><i class="fa fa-tasks"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Activities</li>
+                <li class="has-sub "><a title="Activity" href="javascript:;"><b class="caret pull-right"></b><span>Activity</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Activity</li>
+                    <li><a href="#"><span>Activity Search</span></a></li>
+                    <li><a href="#"><span>Activity Details</span></a></li>
+                    <li><a href="#"><span>Add Activity</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><span>Activity Contact List</span></a></li>
+                <li class="has-sub "><a title="Activity Host" href="javascript:;"><b class="caret pull-right"></b><span>Activity Host</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Activity Host</li>
+                    <li><a href="#"><span>Activity Host Search</span></a></li>
+                    <li><a href="#"><span>Add Activity Host</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a title="Placement" href="javascript:;"><b class="caret pull-right"></b><span>Placement</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Placement</li>
+                    <li><a href="#"><span>Activity Placement Search</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a title="Activity Diary" href="javascript:;"><b class="caret pull-right"></b><span>Activity Diary</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Activity Diary</li>
+                    <li><a href="#"><span>Activity Diary</span></a></li>
+                    <li><a href="#"><span>Bulk Attendance</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><span>AAR Details</span></a></li>
+                <li><a href="#"><span>AAR Calculator</span></a></li>
+              </ul>
+            </li>
+            <li class="has-sub "><a title="Employer and Vacancies" href="javascript:;"><b class="caret pull-right"></b><span>Employer and Vacancies</span> <span class="readers">(Opens a list below)</span><i class="fa fa-newspaper-o"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Employer and Vacancies</li>
+                <li class="has-sub "><a title="Employer" href="javascript:;"><b class="caret pull-right"></b><span>Employer</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Employer</li>
+                    <li><a href="#"><span>Employer Search</span></a></li>
+                    <li><a href="#"><span>Employer Create</span></a></li>
+                    <li><a href="#"><span>Employer Details</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a title="Vacancy" href="javascript:;"><b class="caret pull-right"></b><span>Vacancy</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Vacancy</li>
+                    <li><a href="#"><span>Vacancy Search</span></a></li>
+                    <li><a href="#"><span>Vacancy Details</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a title="Job Placement" href="javascript:;"><b class="caret pull-right"></b><span>Job Placement</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Job Placement</li>
+                    <li><a href="#"><span>Job Placement Search</span></a></li>
+                    <li><a href="#"><span>Job Placement Details</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a title="Agreements" href="javascript:;"><b class="caret pull-right"></b><span>Agreements</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Agreements</li>
+                    <li><a href="#"><span>Agreement Search</span></a></li>
+                    <li><a href="#"><span>Available Payments</span></a></li>
+                    <li><a href="#"><span>Head Agreement Search</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a title="Public Employer" href="javascript:;"><b class="caret pull-right"></b><span>Public Employer</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Public Employer</li>
+                    <li><a href="#"><span>Public Employer Search</span></a></li>
+                    <li><a href="#"><span>Public Employer Details</span></a></li>
+                    <li><a href="#"><span>Public Employer Logos</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><span>Find Candidates</span></a></li>
+                <li class="has-sub "><a title="Employer Invitations" href="javascript:;"><b class="caret pull-right"></b><span>Employer Invitations</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Employer Invitations</li>
+                    <li><a href="#"><span>Invitations Search</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="has-sub "><a title="Payments" href="javascript:;"><b class="caret pull-right"></b><span>Payments</span> <span class="readers">(Opens a list below)</span><i class="fa fa-dollar"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Payments</li>
+                <li class="has-sub "><a title="Claimed Payments" href="javascript:;"><b class="caret pull-right"></b><span>Claimed Payments</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Claimed Payments</li>
+                    <li><a href="#"><span>Payment Search</span></a></li>
+                    <li><a href="#"><span>Departmental Payment Search</span></a></li>
+                    <li><a href="#"><span>Payment Details</span></a></li>
+                    <li><a href="#"><span>Acquittals</span></a></li>
+                    <li><a href="#"><span>Job Seeker Payment History</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a title="Available Payments" href="javascript:;"><b class="caret pull-right"></b><span>Available Payments</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Available Payments</li>
+                    <li><a href="#"><span>Site Payments</span></a></li>
+                    <li class="not-cc-valid "><a href="#"><span>Job Seeker Payments</span></a></li>
+                    <li><a href="#"><span>jobactive Outcome Tracker</span></a></li>
+                    <li class="not-cc-valid "><a href="#"><span>TTW Outcome Tracker</span></a></li>
+                    <li><a href="#"><span>Outcome Snapshot List</span></a></li>
+                    <li><a href="#"><span>Outcome List</span></a></li>
+                    <li><a href="#"><span>Archived Outcome Search</span></a></li>
+                    <li><a href="#"><span>Assessments and EAF Payments</span></a></li>
+                    <li><a href="#"><span>Rate Details</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><span>General Payments</span></a></li>
+                <li class="has-sub not-cc-valid "><a title="Rate Reductions and Earnings" href="javascript:;"><b class="caret pull-right"></b><span>Rate Reductions and Earnings</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Rate Reductions and Earnings</li>
+                    <li class="not-cc-valid "><a href="#"><span>Reduction Search</span></a></li>
+                  </ul>
+                </li>
+                <li class="not-cc-valid "><a href="#"><span>TTW Benchmark Search</span></a></li>
+                <li><a href="#"><span>Work for the Dole Activity Payments</span></a></li>
+                <li class="has-sub "><a title="Overrides &amp; Special Claims" href="javascript:;"><b class="caret pull-right"></b><span>Overrides &amp; Special Claims</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Overrides &amp; Special Claims</li>
+                    <li><a href="#"><span>Override Search</span></a></li>
+                    <li><a href="#"><span>Override Summary</span></a></li>
+                    <li><a href="#"><span>Add Overrides</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="has-sub "><a title="Employment Fund" href="javascript:;"><b class="caret pull-right"></b><span>Employment Fund</span> <span class="readers">(Opens a list below)</span><i class="fa fa-bank (alias)"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Employment Fund</li>
+                <li class="has-sub "><a title="Commitment Upload" href="javascript:;"><b class="caret pull-right"></b><span>Commitment Upload</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Commitment Upload</li>
+                    <li><a href="#"><span>Commitment Upload Facility</span></a></li>
+                    <li><a href="#"><span>Reference Data</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a title="Search" href="javascript:;"><b class="caret pull-right"></b><span>Search</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Search</li>
+                    <li><a href="#"><span>Commitment</span></a></li>
+                    <li><a href="#"><span>Job Seeker History</span></a></li>
+                    <li><a href="#"><span>Request History</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a title="Commitment" href="javascript:;"><b class="caret pull-right"></b><span>Commitment</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Commitment</li>
+                    <li><a href="#"><span>Details</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a title="Administration" href="javascript:;"><b class="caret pull-right"></b><span>Administration</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Administration</li>
+                    <li><a href="#"><span>Create Adjustment</span></a></li>
+                    <li><a href="#"><span>Create Transfer</span></a></li>
+                    <li><a href="#"><span>Maintain Credits</span></a></li>
+                    <li><a href="#"><span>Maintain Qualified Staff</span></a></li>
+                    <li><a href="#"><span>Maintain Suppliers</span></a></li>
+                    <li><a href="#"><span>Maintain Suspensions</span></a></li>
+                    <li><a href="#"><span>Partial Recovery</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="has-sub "><a title="Document Upload" href="javascript:;"><b class="caret pull-right"></b><span>Document Upload</span> <span class="readers">(Opens a list below)</span><i class="fa fa-upload"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Document Upload</li>
+                <li><a href="#"><span>Admin</span></a></li>
+                <li class="has-sub "><a title="Document evidence example" href="javascript:;"><b class="caret pull-right"></b><span>Document evidence example</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Document evidence example</li>
+                    <li><a href="#"><span>Document evidence Component</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><span>Document Search</span></a></li>
+                <li><a href="#"><span>Search and Upload</span></a></li>
+                <li><a href="#"><span>Standalone Documents</span></a></li>
+              </ul>
+            </li>
+            <li class="has-sub "><a title="NEIS" href="javascript:;"><b class="caret pull-right"></b><span>NEIS</span> <span class="readers">(Opens a list below)</span><i class="fa fa-lightbulb-o"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">NEIS</li>
+                <li class="has-sub not-cc-valid "><a title="Participant" href="javascript:;"><b class="caret pull-right"></b><span>Participant</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Participant</li>
+                    <li class="not-cc-valid "><a href="#"><span>Details</span></a></li>
+                    <li class="not-cc-valid "><a href="#"><span>Agreement</span></a></li>
+                    <li class="not-cc-valid "><a href="#"><span>Suspension</span></a></li>
+                    <li class="not-cc-valid "><a href="#"><span>Transfer</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub not-cc-valid "><a title="Business" href="javascript:;"><b class="caret pull-right"></b><span>Business</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Business</li>
+                    <li class="not-cc-valid "><a href="#"><span>Business Search</span></a></li>
+                    <li class="not-cc-valid "><a href="#"><span>Business Details</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub not-cc-valid "><a title="Mentoring" href="javascript:;"><b class="caret pull-right"></b><span>Mentoring</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Mentoring</li>
+                    <li class="not-cc-valid "><a href="#"><span>Initial Visit</span></a></li>
+                    <li class="not-cc-valid "><a href="#"><span>Monthly Contact</span></a></li>
+                    <li class="not-cc-valid "><a href="#"><span>Quarterly Review</span></a></li>
+                  </ul>
+                </li>
+                <li class="not-cc-valid "><a href="#"><span>Tools</span></a></li>
+              </ul>
+            </li>
+            <li class="has-sub "><a title="Providers and Contracts" href="javascript:;"><b class="caret pull-right"></b><span>Providers and Contracts</span> <span class="readers">(Opens a list below)</span><i class="fa fa-file-text-o"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Providers and Contracts</li>
+                <li class="has-sub "><a title="Contracts and Sites" href="javascript:;"><b class="caret pull-right"></b><span>Contracts and Sites</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Contracts and Sites</li>
+                    <li><a href="#"><span>Contract and Outlet Search</span></a></li>
+                    <li><a href="#"><span>Places Search</span></a></li>
+                    <li><a href="#"><span>Site Search and Details</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a title="Connections for Quality" href="javascript:;"><b class="caret pull-right"></b><span>Connections for Quality</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Connections for Quality</li>
+                    <li><a href="#"><span>Comments</span></a></li>
+                    <li><a href="#"><span>Service Quality Indicators</span></a></li>
+                    <li><a href="#"><span>Service Delivery Plans</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub not-cc-valid "><a title="Survey" href="javascript:;"><b class="caret pull-right"></b><span>Survey</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Survey</li>
+                    <li class="not-cc-valid "><a href="#"><span>Search</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="has-sub "><a title="Tools" href="javascript:;"><b class="caret pull-right"></b><span>Tools</span> <span class="readers">(Opens a list below)</span><i class="fa fa-wrench"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Tools</li>
+                <li class="has-sub "><a title="ADW Lookups" href="javascript:;"><b class="caret pull-right"></b><span>ADW Lookups</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">ADW Lookups</li>
+                    <li><a href="#"><span>ListCodeType</span></a></li>
+                    <li><a href="#"><span>ListCode</span></a></li>
+                    <li><a href="#"><span>ListRelatedCodeType</span></a></li>
+                    <li><a href="#"><span>ListRelatedCode</span></a></li>
+                    <li><a href="#"><span>ListPropertyType</span></a></li>
+                    <li><a href="#"><span>ListProperty</span></a></li>
+                    <li><a href="#"><span>ListDeltas</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a title="Job Seeker Bulk Transfer" href="javascript:;"><b class="caret pull-right"></b><span>Job Seeker Bulk Transfer</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Job Seeker Bulk Transfer</li>
+                    <li><a href="#"><span>Job Seeker Bulk Transfer Search</span></a></li>
+                    <li><a href="#"><span>Job Seeker Bulk Transfer Details</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><span>ESAt/JCA Assessor Credentials</span></a></li>
+                <li class="has-sub "><a title="Pro-Rata and Auto Recovery" href="javascript:;"><b class="caret pull-right"></b><span>Pro-Rata and Auto Recovery</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Pro-Rata and Auto Recovery</li>
+                    <li><a href="#"><span>Pro-Rata and Auto Recovery Search</span></a></li>
+                    <li><a href="#"><span>Pro-Rata and Auto Recovery Details</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a title="Learning Centre" href="javascript:;"><b class="caret pull-right"></b><span>Learning Centre</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Learning Centre</li>
+                    <li><a href="#"><span>Search</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><span>Build Info</span></a></li>
+                <li class="has-sub "><a title="Bulletins Admin" href="javascript:;"><b class="caret pull-right"></b><span>Bulletins Admin</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Bulletins Admin</li>
+                    <li><a href="#"><span> Home</span></a></li>
+                    <li><a href="#"><span> Bulletins</span></a></li>
+                    <li><a href="#"><span> Add Bulletin</span></a></li>
+                    <li><a href="#"><span> Files</span></a></li>
+                    <li><a href="#"><span>Add Files</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a title="Dashboard Management" href="javascript:;"><b class="caret pull-right"></b><span>Dashboard Management</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Dashboard Management</li>
+                    <li><a href="#"><span>Manager Overview</span></a></li>
+                    <li><a href="#"><span>Widget Usage</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><span>Date Changer</span></a></li>
+                <li><a href="#"><span>Error Log</span></a></li>
+                <li class="has-sub "><a title="Harvest Trail Admin" href="javascript:;"><b class="caret pull-right"></b><span>Harvest Trail Admin</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Harvest Trail Admin</li>
+                    <li><a href="#"><span> Home</span></a></li>
+                    <li><a href="#"><span>Contacts</span></a></li>
+                    <li><a href="#"><span>Crops</span></a></li>
+                    <li><a href="#"><span>Information</span></a></li>
+                    <li><a href="#"><span>Newsflash</span></a></li>
+                    <li><a href="#"><span>NHLIS</span></a></li>
+                    <li><a href="#"><span>Towns</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><span>Helpdesk Online</span></a></li>
+                <li><a href="#"><span>MQ Dashboard</span></a></li>
+                <li><a href="#"><span>Notification Template Clear Cache</span></a></li>
+                <li><a href="#"><span>Provider Admin</span></a></li>
+                <li><a href="#"><span>Route Table</span></a></li>
+                <li><a href="#"><span>Show Security Claims</span></a></li>
+              </ul>
+            </li>
+            <li><a tabindex="-1" class="sidebar-minify-btn" href="javascript:;" data-click="sidebar-minify"><i class="fa fa-angle-double-left"></i><span class="readers">Minimize menu</span></a></li>
+          </ul>
+        </div>
+        <div class="slimScrollBar ui-draggable" style="background: rgb(0, 0, 0); border-radius: 7px; top: 0px; width: 7px; height: 350.33px; right: 1px; display: block; position: absolute; z-index: 99; opacity: 0.4;"></div>
+        <div class="slimScrollRail" style="background: rgb(51, 51, 51); border-radius: 7px; top: 0px; width: 7px; height: 100%; right: 1px; display: none; position: absolute; z-index: 90; opacity: 0.2;"></div>
+      </div>
+      <!-- end sidebar scrollbar --> 
+    </div>
+  </div>
+  <!-- end #sidebar -->
+  <div class="sidebar-bg"></div>
+  <!-- begin #sidebar-right -->
+  <div tabindex="-1" class="sidebar sidebar-right" id="sidebar-right" role="complementary">
+    <div class="slimScrollDiv" style="width: auto; height: 100%; overflow: hidden; position: relative;">
+      <div style="width: auto; height: 100%; overflow: hidden;" data-height="100%" data-scrollbar="true">
+        <h3>MRS JILL CITIZEN</h3>
+        <ul>
+          <li>Job Seeker ID: 123456789</li>
+          <li>Job Seeker CRN: 987654JC</li>
+          <li>Gender: Female</li>
+          <li>Date of Birth:  01/01/0001</li>
+          <li>Country of Birth: Australia</li>
+          <li>Registration:  01/01/0001</li>
+          <li>Allowance Type: NSA</li>
+          <li>Suburb: suburb</li>
+          <li>Postcode: 1234</li>
+          <li>Preferred Contact Number: 0412345678</li>
+        </ul>
+        <h4>Servicing</h4>
+        <ul>
+          <li>
+            <div class="clearBoth"><span class="floatLeft">jobactive</span><span class="floatRight"><span class="label label-success">Commenced</span></span> </div>
+          </li>
+          <li>
+            <div class="clearBoth"><span class="floatLeft">Org &amp; Site: ABCD - EFGH</span><span class="floatRight"></span></div>
+          </li>
+          <li>
+            <div class="clearBoth"><span class="floatLeft">Stream:    Stream B</span><span class="floatRight"></span></div>
+          </li>
+          <li>
+            <div class="clearBoth"><span class="floatLeft">Status:    Commenced</span><span class="floatRight"></span></div>
+          </li>
+          <li>
+            <div class="clearBoth"><span class="floatLeft">Phase:    Case Management</span><span class="floatRight"></span></div>
+          </li>
+          <li>
+            <div class="clearBoth"><span class="floatLeft">Period of Service:    X Weeks X Days</span><span class="floatRight"></span></div>
+          </li>
+          <li>
+            <div class="clearBoth"><span class="floatLeft">Referral:      01/01/0001</span><span class="floatRight"></span></div>
+          </li>
+          <li>
+            <div class="clearBoth"><span class="floatLeft">ESAt/JCA:      01/01/0001</span><span class="floatRight"><i class="fa fa-check-circle fg-green"></i></span></div>
+          </li>
+        </ul>
+        <br>
+        <h4>Important Information</h4>
+        <div class="flex-row allow-wrap">
+          <div class="flex-item"><a title="Full Time Activity Test" href="#"><i class="fa fa-key fg-grey fa-2x"></i></a></div>
+        </div>
+        <br>
+        <h4>Lifecycle</h4>
+        <ul>
+          <li>
+            <div class="clearBoth"><span class="floatLeft">Job Plan:     01/01/0001</span><span class="floatRight"><i class="fa fa-check-circle fg-green"></i></span></div>
+          </li>
+          <li>
+            <div class="clearBoth"><span class="floatLeft">Commenced:     01/01/0001</span><span class="floatRight"><i class="fa fa-check-circle fg-green"></i></span></div>
+          </li>
+        </ul>
+      </div>
+      <div class="slimScrollBar ui-draggable" style="background: rgb(0, 0, 0); border-radius: 7px; top: 0px; width: 7px; height: 881px; right: 1px; display: none; position: absolute; z-index: 99; opacity: 0.4;"></div>
+      <div class="slimScrollRail" style="background: rgb(51, 51, 51); border-radius: 7px; top: 0px; width: 7px; height: 100%; right: 1px; display: none; position: absolute; z-index: 90; opacity: 0.2;"></div>
+    </div>
+  </div>
+  <!-- end #sidebar-right --> 
+  
+  <!--contentSection-->
+  
+  <div class="content" id="content" role="main">
+    <div class="jump-list pull-right dropdown"> <a title="(Alt+J)" class="dropdown-toggle btn select btn-gr-gray btn-sm" href="#" data-toggle="dropdown">Jump to&nbsp; <span class="caret"></span></a>
+      <ul class="dropdown-menu text-right" role="menu">
+        <li><a href="#jl0">Privacy</a></li>
+        <li><a href="#jl1">Job Alerts</a></li>
+        <li><a href="#jl2">Occupations</a></li>
+        <li><a href="#jl3">Locations</a></li>
+        <li><a href="#jl4">Tenure Types</a></li>
+        <li><a href="#jl5">Job Types</a></li>
+        <li><a href="#jl6">Availability</a></li>
+      </ul>
+    </div>
+    <h1 class="page-header"> Job Matching </h1>
+    <form id="main_form" action="#" method="Post" novalidate autocomplete="off">
+    <input name="__RequestVerificationToken" type="hidden" value="3kwmUyTZrAC-4zgnMOTCz4jfvmykKel3ll-GbAWrMwTrkw4WC6AP_qK4e20NDIpxvEN6k55jVd5lTRT7zOrB7k14PpCwK1jo8z0z09ffCAWTx9kZ_sNeuZ9y4TEnhYSGbi3yQQ2">
+    <input name="__AntiDuplicateSubmitToken" type="hidden"
+        value="cb265e86-511b-48de-ae76-f048719810f7">
+    <section class="validation-summary-valid noErrors" id="validation-error-summary" data-valmsg-summary="true"><span tabindex="0" class="close" aria-label="Close message below" data-dismiss="alert"><span aria-hidden="true">×</span></span>
+      <h2>Error</h2>
+      <ul>
+      </ul>
+    </section>
+    <div class="row">
+    <div class="col-xs-12 col-lg-12 col-xl-12 islogical islogical" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+    <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Privacy" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;" data-zpnip="Privacy" data-zpt="gF1FbjhOenrAezJF8gQkbYc8u+9VV4VAB58s0eh9IKyZ6ppo8OCG89sCxtimZ2PFN7UBD7Or9OuAA7y2aIZKNmkSEncOyFIHcfAgPxYtb+LhrzAtMXuE6736X8ekyTUFiVDE4Ll+iOA7mL3xBuONMxApLh9XMbsC4AeaOyGD7eMSy4vAEShdUzcQrVoxnsHDiUU5sptuwPG30icsDRe7DMJdthg=">
+    <div id="InnerContainerFor-Privacy" data-zdn="Privacy">
+    <div class="row">
+    <div class="col-xs-12 col-lg-12 col-xl-12" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+    <div class="panel panel-inverse  ">
+    <div class="panel-heading">
+      <div class="panel-heading-btn"> <a title="" class="btn btn-sm btn-icon btn-circle btn-default" href="javascript:;" data-zck="expand"><span class="readers">Expand/Compress Privacy</span><i class="fa fa-expand"></i></a> <a title="" class="btn btn-sm btn-icon btn-circle btn-warning" href="javascript:;" data-zck="collapse"><span class="readers">Collapse Privacy</span><i class="fa fa-minus"></i></a> </div>
+      <h2 class="panel-title" id="jl0">Privacy</h2>
+    </div>
+    <div class="panel-body " id="group-Privacy_Privacy">
+    <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Privacy_PrivacyInformationMessage" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+      <div id="InnerContainerFor-Privacy_PrivacyInformationMessage" data-zdn="PrivacyInformationMessage" data-zcvi='[{"DependentProperty":"CanEditProfile","ComparisonType":"EqualTo","DependentValue":true,"PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]'>
+        <p>You are providing the following information on behalf of the Job Seeker. Note, any updates made to the Job Seeker's Job Matching information are automatically reflected on the JobSearch website and can be accessed from the Job
+          Seeker's Dashboard. Please ensure you have the Job Seeker's permission prior to making any updates to the Job Seeker's Job Matching information.</p>
+      </div>
+      <!--column size div tag for property--> 
+    </div>
+    <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Privacy_VisibilityId" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+      <fieldset class="fieldset-group">
+        <legend>
+        <label class="control-label " for="Privacy_VisibilityId">Would you like employers and providers to see your profile?<span title="Required" class="req"><span class="readers">Required</span><i class="fa fa-asterisk"></i></span></label>
+        <a
+                              class="errorTip" role="presentation" style="display: none;" href="javascript:;" data-zet="Privacy.VisibilityId"><span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="Privacy.VisibilityId"></span></a> </legend>
+        <div id="InnerContainerFor-Privacy_VisibilityId">
+          <input name="Privacy.VisibilityId" id="Privacy_VisibilityId" type="radio" checked="checked" value="0" data-val-required="Please select a visibility option." data-val="true" data-zdn="Would you like employers and providers to see your profile?"
+                              data-zrot="disabled" data-zrbg="True">
+          <label for="Privacy_VisibilityId">Private</label>
+          <br>
+          <input name="Privacy.VisibilityId" id="Privacy_VisibilityId-1" type="radio" value="1" data-val-required="Please select a visibility option."
+                              data-val="true" data-zdn="Would you like employers and providers to see your profile?" data-zrot="disabled" data-zrbg="True">
+          <label for="Privacy_VisibilityId-1">Visible - Registered employers only</label>
+          <br>
+          <input name="Privacy.VisibilityId"
+                              id="Privacy_VisibilityId-2" type="radio" value="2" data-val-required="Please select a visibility option." data-val="true" data-zdn="Would you like employers and providers to see your profile?" data-zrot="disabled" data-zrbg="True">
+          <label
+                              for="Privacy_VisibilityId-2">Visible - Public</label>
+        </div>
+        <!--column size div tag for property-->
+      </fieldset>
+    </div>
+    <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Privacy_ShowProvider" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+    <label class="control-label " for="Privacy_ShowProvider">Would you like employers to contact your provider with jobs for you?<span class="readers">value is No, check to select Yes</span></label>
+    <a class="errorTip" role="presentation"
+                          style="display: none;" href="javascript:;" data-zet="Privacy.ShowProvider"><span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="Privacy.ShowProvider"></span></a>
+    <div id="InnerContainerFor-Privacy_ShowProvider">
+    <form action="">
+      <input type="radio" name="letter" value="No" checked>
+      No<br>
+      <input type="radio" name="letter" value="Yes">
+      Yes<br>
+    </form>
+  </div>
+  <!--column size div tag for property--> 
+</div>
+<div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Privacy_PrivateSelectedMessage" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+  <div id="InnerContainerFor-Privacy_PrivateSelectedMessage" data-zdn="PrivateSelectedMessage" data-zcvi='[{"DependentProperty":"VisibilityId","ComparisonType":"EqualTo","DependentValue":"0","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]'>
+    <p>Employers and other Providers will be unable to search for you or view your Career Profile</p>
+  </div>
+  <!--column size div tag for property--> 
+</div>
+<div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Privacy_HavePermission" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+  <label class="control-label " for="Privacy_HavePermission">By selecting this you are confirming you have the Job Seeker's permission to share this information with other providers and employers.<span title="Required" class="req"><span class="readers">Required</span><i class="fa fa-asterisk"></i></span><span class="readers">value is No, check to select Yes</span></label>
+  <a
+                          class="errorTip" role="presentation" style="display: none;" href="javascript:;" data-zet="Privacy.HavePermission"><span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="Privacy.HavePermission"></span></a>
+  <div id="InnerContainerFor-Privacy_HavePermission">
+    <input name="Privacy.HavePermission" class="readers" id="Privacy_HavePermission" type="checkbox" value="true" data-val-required="You must confirm you have the Job Seeker's permission to share this information" data-val="true" data-zdn="By selecting this you are confirming you have the Job Seeker's permission to share this information with other providers and employers."
+                              data-zrot="disabled" data-zsu="No" data-zsc="Yes" data-zs="true" data-bg="bg-green" data-zcvi='[{"DependentProperty":"PreviousVisibilityId","ComparisonType":"NotEqualTo","DependentValue":"1","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":"HavePermissionVisible"},{"DependentProperty":"VisibilityId","ComparisonType":"EqualTo","DependentValue":"1","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":"HavePermissionVisible"}]'>
+    <div
+                              class="switcher" aria-hidden="true"><span class="left bg-green covered">Yes</span><span class="right bg-green">No</span><span class="centre" style="left: 5px;"></span></div>
+    <input name="Privacy.HavePermission" type="hidden" value="false">
+  </div>
+  <!--column size div tag for property--> 
+</div>
+<div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Privacy_HavePermissionPublic" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+  <label class="control-label " for="Privacy_HavePermissionPublic">By selecting this option you are confirming that you have the job seekers permission to share or grant access to their information by other providers, employers and other third parties. In addition, please ensure that both you and the Job Seeker have read and agree to the JobSearch Conditions of Use and Privacy Notice.<span title="Required" class="req"><span class="readers">Required</span><i class="fa fa-asterisk"></i></span><span class="readers">value is No, check to select Yes</span></label>
+  <a
+                        class="errorTip" role="presentation" style="display: none;" href="javascript:;" data-zet="Privacy.HavePermissionPublic"><span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="Privacy.HavePermissionPublic"></span></a>
+  <div id="InnerContainerFor-Privacy_HavePermissionPublic">
+    <input name="Privacy.HavePermissionPublic" class="readers" id="Privacy_HavePermissionPublic" type="checkbox" value="true" data-val-required="You must confirm you have the Job Seeker's permission to share this information" data-val="true" data-zdn="By selecting this option you are confirming that you have the job seekers permission to share or grant access to their information by other providers, employers and other third parties. In addition, please ensure that both you and the Job Seeker have read and agree to the JobSearch Conditions of Use and Privacy Notice."
+                            data-zrot="disabled" data-zsu="No" data-zsc="Yes" data-zs="true" data-bg="bg-green" data-zcvi='[{"DependentProperty":"VisibilityId","ComparisonType":"EqualTo","DependentValue":"2","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":"HavePermissionVisible"},{"DependentProperty":"PreviousVisibilityId","ComparisonType":"NotEqualTo","DependentValue":"2","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":"HavePermissionVisible"}]'>
+    <div
+                            class="switcher" aria-hidden="true"><span class="left bg-green covered">Yes</span><span class="right bg-green">No</span><span class="centre" style="left: 5px;"></span></div>
+    <input name="Privacy.HavePermissionPublic" type="hidden" value="false">
+  </div>
+  <!--column size div tag for property--> 
+</div>
+<div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Privacy_ConditionsMetMessage" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+  <div id="InnerContainerFor-Privacy_ConditionsMetMessage" data-zdn="ConditionsMetMessage" data-zcvi='[{"DependentProperty":"IsVisibleEnabledConditionsMet","ComparisonType":"EqualTo","DependentValue":false,"PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]'>
+    <p>At least one occupation and location is required before your career profile can be set to visible.</p>
+  </div>
+  <!--column size div tag for property--> 
+</div>
+<div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Privacy_ConditionsOfUser" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+  <div id="InnerContainerFor-Privacy_ConditionsOfUser" data-zdn="ConditionsOfUser" data-zcvi='[{"DependentProperty":"VisibilityId","ComparisonType":"EqualTo","DependentValue":"2","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]'><a title="JobSearch Conditions of Use (opens in a new window)" href="https://jobsearch.test.idc.hosts.network/documents/summary of conditions of use and privacy notice - career profile.pdf" target="_blank">JobSearch Conditions of Use</a></div>
+  <!--column size div tag for property--> 
+</div>
+<div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Privacy_URL" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+  <div id="InnerContainerFor-Privacy_URL" data-zdn="URL" data-zcvi='[{"DependentProperty":"PreviousVisibilityId","ComparisonType":"NotEqualTo","DependentValue":"0","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]'><br>
+    <p>You can share your Career Profile using the following URL:</p>
+    <p>https://jobsearch.test.idc.hosts.network/CareerProfile/llUJ7lWTbcLnILfSr4xw4Y5rclm8JAKBnfMmS4he3YaanQb0OjRgSEagmlFsOmproeGE7TmQ8pHC3ouJRM0BUw%3d%3d</p>
+  </div>
+  <!--column size div tag for property--> 
+</div>
+</div>
+<!--panel-body -->
+</div>
+<!--panel-inverse-->
+</div>
+<!--Closing DIV for Visible/Hidden for group fieldset-->
+</div>
+<!--Row Div-->
+<div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Privacy_JobSeekerId" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+  <div id="InnerContainerFor-Privacy_JobSeekerId">
+    <input name="Privacy.JobSeekerId" id="Privacy_JobSeekerId" type="hidden" value="480362609" data-val-required="The JobSeekerId field is required." data-val="true" data-val-number="The field JobSeekerId must be a number.">
+  </div>
+</div>
+<div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Privacy_CanEditProfile" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+  <div id="InnerContainerFor-Privacy_CanEditProfile">
+    <input name="Privacy.CanEditProfile" id="Privacy_CanEditProfile" type="hidden" value="True" data-val-required="The CanEditProfile field is required." data-val="true">
+  </div>
+</div>
+<div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Privacy_IsVisibleEnabledConditionsMet" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+  <div id="InnerContainerFor-Privacy_IsVisibleEnabledConditionsMet">
+    <input name="Privacy.IsVisibleEnabledConditionsMet" id="Privacy_IsVisibleEnabledConditionsMet" type="hidden" value="True" data-val-required="The IsVisibleEnabledConditionsMet field is required." data-val="true">
+  </div>
+</div>
+<div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Privacy_EncryptedProfileId" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+  <div id="InnerContainerFor-Privacy_EncryptedProfileId">
+    <input name="Privacy.EncryptedProfileId" id="Privacy_EncryptedProfileId" type="hidden" value="llUJ7lWTbcLnILfSr4xw4Y5rclm8JAKBnfMmS4he3YaanQb0OjRgSEagmlFsOmproeGE7TmQ8pHC3ouJRM0BUw%3d%3d">
+  </div>
+</div>
+<div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Privacy_PreviousVisibilityId" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+  <div id="InnerContainerFor-Privacy_PreviousVisibilityId">
+    <input name="Privacy.PreviousVisibilityId" id="Privacy_PreviousVisibilityId" type="hidden" value="0">
+  </div>
+</div>
+</div>
+<!--column size div tag for property-->
+</div>
+</div>
+<!--Closing DIV for Visible/Hidden for group fieldset-->
+</div>
+<!--Row Div-->
+<div class="row">
+  <div class="col-xs-12 col-lg-12 col-xl-12 islogical islogical" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+    <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-JobAlerts" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;" data-zpnip="JobAlerts" data-zpt="SBB6Pv3rq1am+UeuSZZbYcBjVCyfy2sLTHEb6mqsUyCSbkgQ/rjCqlcREXOKREqvpaeJAw6CCmAPR69NdPpUOOqNeqxR1+FxIC7qB9ZQeA4XBkuPZXENC/iqiX6sihvhKPNWCt90Qaibx1M/MvE4CgomwE/ITP0k93Cz986bXZPXwUqXPPcAaXWEvLP1FSy6LaFQe4G7AC+UXrdAVlSEySsnX4k=">
+      <div id="InnerContainerFor-JobAlerts" data-zdn="JobAlerts">
+        <div class="row">
+          <div class="col-xs-12 col-lg-12 col-xl-12" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+            <div class="panel panel-inverse  ">
+              <div class="panel-heading">
+                <div class="panel-heading-btn"> <a title="" class="btn btn-sm btn-icon btn-circle btn-default" href="javascript:;" data-zck="expand"><span class="readers">Expand/Compress Job Alerts</span><i class="fa fa-expand"></i></a> <a title="" class="btn btn-sm btn-icon btn-circle btn-warning" href="javascript:;" data-zck="collapse"><span class="readers">Collapse Job Alerts</span><i class="fa fa-minus"></i></a> </div>
+                <h2 class="panel-title" id="jl1">Job Alerts</h2>
+              </div>
+              <div class="panel-body " id="group-JobAlerts_Job_Alerts">
+                <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-JobAlerts_JobAlertsEnabled" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+                  <fieldset class="fieldset-group">
+                    <legend>
+                    <label class="control-label " for="JobAlerts_JobAlertsEnabled">Choose a job alert preference.<span title="Required" class="req"><span class="readers">Required</span><i class="fa fa-asterisk"></i></span></label>
+                    <a class="errorTip"
+                          role="presentation" style="display: none;" href="javascript:;" data-zet="JobAlerts.JobAlertsEnabled"><span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="JobAlerts.JobAlertsEnabled"></span></a> </legend>
+                    <div id="InnerContainerFor-JobAlerts_JobAlertsEnabled">
+                      <input name="JobAlerts.JobAlertsEnabled" id="JobAlerts_JobAlertsEnabled" type="radio" checked="checked" value="false" data-val-required="You must select a Job Alerts option." data-val="true" data-zdn="Choose a job alert preference."
+                          data-zrot="disabled" data-zrbg="True">
+                      <label for="JobAlerts_JobAlertsEnabled">Off</label>
+                      <br>
+                      <input name="JobAlerts.JobAlertsEnabled" id="JobAlerts_JobAlertsEnabled-1" type="radio" value="true" data-val-required="You must select a Job Alerts option."
+                          data-val="true" data-zdn="Choose a job alert preference." data-zrot="disabled" data-zrbg="True">
+                      <label for="JobAlerts_JobAlertsEnabled-1">On</label>
+                    </div>
+                    <!--column size div tag for property-->
+                  </fieldset>
+                </div>
+                <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-JobAlerts_CurrentSetting" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+                  <div id="InnerContainerFor-JobAlerts_CurrentSetting" data-zdn="">
+                    <p>Job Alerts are currently turned off.</p>
+                  </div>
+                  <!--column size div tag for property--> 
+                </div>
+                <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-JobAlerts_JobAlertsMethod" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+                  <fieldset class="fieldset-group">
+                    <legend>
+                    <label class="control-label " for="JobAlerts_JobAlertsMethod">Method<span title="Required" class="req hidden"><span class="readers" aria-hidden="true">Required</span><i class="fa fa-asterisk"></i></span></label>
+                    <a class="errorTip"
+                          role="presentation" style="display: none;" href="javascript:;" data-zet="JobAlerts.JobAlertsMethod"><span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="JobAlerts.JobAlertsMethod"></span></a> </legend>
+                    <div id="InnerContainerFor-JobAlerts_JobAlertsMethod">
+                      <input name="JobAlerts.JobAlertsMethod" disabled="disabled" id="JobAlerts_JobAlertsMethod" type="radio" checked="checked" value="B" data-val="true" data-zdn="Method" data-zrot="disabled" data-zcroi='[{"DependentProperty":"JobAlertsEnabled","ComparisonType":"EqualTo","DependentValue":"false","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]'
+                          data-zrbg="True" data-zcri='[{"DependentProperty":"JobAlertsEnabled","ComparisonType":"EqualTo","DependentValue":"true","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]' data-val-requiredif="You must select a Job Alerts method option.">
+                      <label
+                          for="JobAlerts_JobAlertsMethod">Both</label>
+                      <input name="JobAlerts.JobAlertsMethod" disabled="disabled" id="JobAlerts_JobAlertsMethod-1" type="radio" value="E" data-val="true" data-zdn="Method" data-zrot="disabled" data-zcroi='[{"DependentProperty":"JobAlertsEnabled","ComparisonType":"EqualTo","DependentValue":"false","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]'
+                            data-zrbg="True" data-zcri='[{"DependentProperty":"JobAlertsEnabled","ComparisonType":"EqualTo","DependentValue":"true","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]' data-val-requiredif="You must select a Job Alerts method option.">
+                      <label
+                            for="JobAlerts_JobAlertsMethod-1">Email</label>
+                      <input name="JobAlerts.JobAlertsMethod" disabled="disabled" id="JobAlerts_JobAlertsMethod-2" type="radio" value="I" data-val="true" data-zdn="Method" data-zrot="disabled" data-zcroi='[{"DependentProperty":"JobAlertsEnabled","ComparisonType":"EqualTo","DependentValue":"false","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]'
+                              data-zrbg="True" data-zcri='[{"DependentProperty":"JobAlertsEnabled","ComparisonType":"EqualTo","DependentValue":"true","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]' data-val-requiredif="You must select a Job Alerts method option.">
+                      <label
+                              for="JobAlerts_JobAlertsMethod-2">JobSearch Inbox</label>
+                    </div>
+                    <!--column size div tag for property-->
+                  </fieldset>
+                </div>
+                <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-JobAlerts_JobAlertsFrequency" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+                  <fieldset class="fieldset-group">
+                    <legend>
+                    <label class="control-label " for="JobAlerts_JobAlertsFrequency">Frequency<span title="Required" class="req hidden"><span class="readers" aria-hidden="true">Required</span><i class="fa fa-asterisk"></i></span></label>
+                    <a class="errorTip"
+                          role="presentation" style="display: none;" href="javascript:;" data-zet="JobAlerts.JobAlertsFrequency"><span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="JobAlerts.JobAlertsFrequency"></span></a> </legend>
+                    <div id="InnerContainerFor-JobAlerts_JobAlertsFrequency">
+                      <input name="JobAlerts.JobAlertsFrequency" disabled="disabled" id="JobAlerts_JobAlertsFrequency" type="radio" value="D" data-val="true" data-zdn="Frequency" data-zrot="disabled" data-zcroi='[{"DependentProperty":"JobAlertsEnabled","ComparisonType":"EqualTo","DependentValue":"false","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]'
+                          data-zrbg="True" data-zcri='[{"DependentProperty":"JobAlertsEnabled","ComparisonType":"EqualTo","DependentValue":"true","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]' data-val-requiredif="You must select a Job Alerts frequency option.">
+                      <label
+                          for="JobAlerts_JobAlertsFrequency">Daily</label>
+                      <input name="JobAlerts.JobAlertsFrequency" disabled="disabled" id="JobAlerts_JobAlertsFrequency-1" type="radio" value="T" data-val="true" data-zdn="Frequency" data-zrot="disabled" data-zcroi='[{"DependentProperty":"JobAlertsEnabled","ComparisonType":"EqualTo","DependentValue":"false","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]'
+                            data-zrbg="True" data-zcri='[{"DependentProperty":"JobAlertsEnabled","ComparisonType":"EqualTo","DependentValue":"true","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]' data-val-requiredif="You must select a Job Alerts frequency option.">
+                      <label
+                            for="JobAlerts_JobAlertsFrequency-1">Twice Weekly</label>
+                      <input name="JobAlerts.JobAlertsFrequency" disabled="disabled" id="JobAlerts_JobAlertsFrequency-2" type="radio" checked="checked" value="W" data-val="true" data-zdn="Frequency" data-zrot="disabled" data-zcroi='[{"DependentProperty":"JobAlertsEnabled","ComparisonType":"EqualTo","DependentValue":"false","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]'
+                              data-zrbg="True" data-zcri='[{"DependentProperty":"JobAlertsEnabled","ComparisonType":"EqualTo","DependentValue":"true","PassOnNull":false,"FailOnNull":false,"Always":false,"Group":null}]' data-val-requiredif="You must select a Job Alerts frequency option.">
+                      <label
+                              for="JobAlerts_JobAlertsFrequency-2">Weekly</label>
+                    </div>
+                    <!--column size div tag for property-->
+                  </fieldset>
+                </div>
+              </div>
+              <!--panel-body --> 
+            </div>
+            <!--panel-inverse--> 
+          </div>
+          <!--Closing DIV for Visible/Hidden for group fieldset--> 
+        </div>
+        <!--Row Div-->
+        <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-JobAlerts_JobSeekerId" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+          <div id="InnerContainerFor-JobAlerts_JobSeekerId">
+            <input name="JobAlerts.JobSeekerId" id="JobAlerts_JobSeekerId" type="hidden" value="480362609" data-val-required="The JobSeekerId field is required." data-val="true" data-val-number="The field JobSeekerId must be a number.">
+          </div>
+        </div>
+        <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-JobAlerts_CanEditProfile" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+          <div id="InnerContainerFor-JobAlerts_CanEditProfile">
+            <input name="JobAlerts.CanEditProfile" id="JobAlerts_CanEditProfile" type="hidden" value="True" data-val-required="The CanEditProfile field is required." data-val="true">
+          </div>
+        </div>
+        <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-JobAlerts_CanBeEnabled" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+          <div id="InnerContainerFor-JobAlerts_CanBeEnabled">
+            <input name="JobAlerts.CanBeEnabled" id="JobAlerts_CanBeEnabled" type="hidden" value="True" data-val-required="The CanBeEnabled field is required." data-val="true">
+          </div>
+        </div>
+      </div>
+      <!--column size div tag for property--> 
+    </div>
+  </div>
+  <!--Closing DIV for Visible/Hidden for group fieldset--> 
+</div>
+<!--Row Div-->
+<div class="row">
+  <div class="col-xs-12 col-lg-12 col-xl-12" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+    <div class="panel panel-inverse  ">
+      <div class="panel-heading">
+        <div class="panel-heading-btn"> <span  id="customebutton1" class="btn btn-sm btn-icon btn-inverse rhea-actionif" data-zfp="Summary" data-zt="link" data-zdv="True" data-zdp="CanAddActivity" data-zct="EqualTo" data-zadt="Visible" data-aafd="true"><a href="#"></i></a></span> <a title="" class="btn btn-sm btn-icon btn-circle btn-default" href="javascript:;" data-zck="expand"><span class="readers">Expand/Compress Occupations</span><i class="fa fa-expand"></i></a> <a title="" class="btn btn-sm btn-icon btn-circle btn-warning" href="javascript:;" data-zck="collapse"><span class="readers">Collapse Occupations</span><i class="fa fa-minus"></i></a> </div>
+        <h2 class="panel-title" id="jl2">Occupations</h2>
+      </div>
+      <div class="panel-body " id="group-Occupations">
+        <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-OccupationsViewModel" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;" data-zpnip="OccupationsViewModel" data-zpt="faS58venbs3QIJbuo4IsGQUXNUNtR1p3HeZ5CGqqkiqw6VFfWivAqGaBKvGEZGEID7j1PLYYPLKqO5yzZ6Hj0uI15GTMn7gRjRzvb68J81oCTbMKipbmA+I5CVJCeHEQ7WyHLKTq8rLqWuSbX9uYH1dJ4nZoCAjTjUjvu0DkZxLpgeISltwwod9YJjsuy7gygidhJmYttoM2UhCDsx31BSzZA3E=">
+          <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-OccupationsList" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;" data-zpnip="OccupationsList" data-zpt="ilLBQWbiULRlUjrlO4rbhefdSvVt7vzrSeKwssR4iPdtxPXkrnKHA0aXttwvzj7W2wFe8p0+v5fyruT21ANm+OJcxgFGeRNAT26O2MoBWr7a2DTYrUeiF9XqEHkdZcgwI/F+A10iEz8K/y3y/W+3PFk/bpRY2tuL9MSP0svd4RFMykAxteXTdxsfi8lgCj/Jugif3hxjbqY7hNc+kht8FdvwVwJ88oBlJqBwk+IZywLhUUM4">
+            <div id="InnerContainerFor-OccupationsList" data-zdn="OccupationsList">
+              <div class="panel-body zeus-table overflow-x-auto">
+                <div class="table-responsive">
+                  <p class="readers">No sort order set. Select column heading to change sort order.</p>
+                  <!--TABLE 1-->
+                  <ul id="occupations-list">
+                    <li>Kitchen Hands</li>
+                    <li>Waiters</li>
+                  </ul>
+                  <div class="txtR noPad nestedButtons"> <span class="rhea-actionif" data-zfp="Skills" data-zt="link" data-zdv="True" data-zdp="CanEditProfile" data-zct="EqualTo" data-zadt="Visible"><a href="#">Edit Occupations</a></span> </div>
+                  <input name="OccupationsList" id="OccupationsList" type="hidden" value="">
+                  <div id="InnerContainerFor-Skills_Skills" data-zdn="Skills">
+                    <h4>Job seekers like you have these occupations in their profile</h4>
+                    <form action="demo_form.asp" id="occupations-form123" method="get">
+                      <span>
+                      <input type="checkbox" name="occupations" value="Sales Assistants (General)">
+                      Sales Assistants (General)<br>
+                      </span> <span>
+                      <input type="checkbox" name="occupations" value="Receptionists">
+                      Receptionists<br>
+                      </span> <span>
+                      <input type="checkbox" name="occupations" value="Checkout Operators and Office Cashiers">
+                      Checkout Operators and Office Cashiers<br>
+                      </span> <span>
+                      <input type="checkbox" name="occupations" value="General Clerks">
+                      General Clerks<br>
+                      </span> <span>
+                      <input type="checkbox" name="occupations" value="Other Sales Assistants and Salespersons">
+                      Other Sales Assistants and Salespersons<br>
+                      </span> <span>
+                      <input type="checkbox" name="occupations" value="Other Clerical & Administrative Workers">
+                      Other Clerical & Administrative Workers<br>
+                      </span> <span>
+                      <input type="checkbox" name="occupations" value="Bar Attendants and Baristas">
+                      Bar Attendants and Baristas<br>
+                      </span> <span>
+                      <input type="checkbox" name="occupations" value="Cafe Workers">
+                      Cafe Workers<br>
+                      </span>
+                    </form>
+                    <div class="txtR noPad nestedButtons"> <span class="rhea-actionif" data-zfp="" data-zt="link" data-zdv="True" data-zdp="CanEditProfile" data-zct="EqualTo" data-zadt="Visible"><a id="occupations-button" data-zagm="add">Add Selected Occupations</a></span> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--column size div tag for property--> 
+          </div>
+          <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-JobSeekerId" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+            <div id="InnerContainerFor-JobSeekerId">
+              <input name="JobSeekerId" id="JobSeekerId" type="hidden" value="480362609" data-val-required="The JobSeekerId field is required." data-val="true" data-val-number="The field JobSeekerId must be a number.">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--panel-body -->
+      <div class="panel-footer"> </div>
+      <!--panel-footer --> 
+    </div>
+    <!--panel-inverse--> 
+  </div>
+  <!--Closing DIV for Visible/Hidden for group fieldset--> 
+</div>
+<!--Row Div-->
+<div class="row">
+  <div class="col-xs-12 col-lg-12 col-xl-12" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+    <div class="panel panel-inverse  ">
+      <div class="panel-heading">
+        <div class="panel-heading-btn"> <a title="" class="btn btn-sm btn-icon btn-circle btn-default" href="javascript:;" data-zck="expand"><span class="readers">Expand/Compress Locations</span><i class="fa fa-expand"></i></a> <a title="" class="btn btn-sm btn-icon btn-circle btn-warning" href="javascript:;" data-zck="collapse"><span class="readers">Collapse Locations</span><i class="fa fa-minus"></i></a> </div>
+        <h2 class="panel-title" id="jl3">Locations</h2>
+      </div>
+      <div class="panel-body " id="group-Locations">
+        <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-LocationsList" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;" data-zpnip="LocationsList" data-zpt="/cqzbjUJJkDiCLI208PMo478uKabI3tv8VUDBBIC5BB+IqXyRxUomwpuXix8BDulZwD3d2ofku57o0RTpb9m2oxAbFpUWfsiL3EhIlLjnaOSq7lUf4OiE2SxuwnsHbsVItW7uMBx8fogEIzD9rCbEHkESkanRVSMidSazO26DO8jMUhblVb6EzZ33v5xfHKk3vy60U2VVRcBavVV/C0DnO1Euy0=">
+          <div id="InnerContainerFor-LocationsList" data-zdn="LocationsList">
+            <div class="panel-body zeus-table overflow-x-auto">
+              <div class="table-responsive">
+                <p class="readers">No sort order set. Select column heading to change sort order.</p>
+                <table class="results table table-bordered" id="LocationsListTable" summary="Search results" data-zpnip="LocationsList" data-zpt="sJeou30luAY6Re1BP7sn0Y1u3gTGLmHzG9OpeWzZVlytsnrzIGfMH/Ri9SF6gD7RUyNIAHmi4AX4TIHzoFabNImy3rgihf6uuBf0xd7LjUe9l+aJlhiJafOzxhG2vG3Ta3JS9XlemWs6tAZ3DpA5Bjq4U9VSOB79LPRMpGxoUkCG+pbIv8qV+TzzKa6yda/KcSQPDN3bp4C6wHcky1QelzIexNY="
+                    data-zhp="False" data-zgst="None" data-zgfe="false" data-zfpnip="LocationsList">
+                  <caption class="readers">
+                  Search results
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th style="width: 95%;" data-sort="string"> <a href="#">Location</a> </th>
+                      <th style="width: 5%;">Actions </th>
+                      <th class="hidden"></th>
+                    </tr>
+                  </thead>
+                  <tbody id="LocationsList-grid">
+                    <tr data-zgp="1">
+                      <th class="wrapbreak" data-label="Location"><a class="row-revealer responsive-hidden" href="javascript:;"><i class="fa fa-plus"></i></a>NSW - Regional - Lower Mid North Coast </th>
+                      <td data-label="Actions"><div class="nestedButtons"><a title="Delete NSW - Regional - Lower Mid North Coast" href="#" data-zagm="delete"><i class="fa fa-trash"></i><span class="readers">Delete NSW - Regional - Lower Mid North Coast</span></a></div></td>
+                      <td class="hidden" data-label=""><input name="LocationsList[0]" id="LocationsList_0_" type="hidden" value="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"></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <input name="LocationsList" id="LocationsList" type="hidden" value="">
+              </div>
+            </div>
+          </div>
+          <!--column size div tag for property--> 
+        </div>
+      </div>
+      <!--panel-body -->
+      <div class="panel-footer">
+        <div class="txtR noPad nestedButtons"> <a href="#">Add Location</a> </div>
+      </div>
+      <!--panel-footer --> 
+    </div>
+    <!--panel-inverse--> 
+  </div>
+  <!--Closing DIV for Visible/Hidden for group fieldset--> 
+</div>
+<!--Row Div-->
+<div class="row">
+  <div class="col-xs-12 col-lg-12 col-xl-12 islogical islogical" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+    <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-TenureTypes" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;" data-zpnip="TenureTypes" data-zpt="Zr4RJUnY96D6monRyn0Bv0xILzQXoIvCaB8+em6C8tiZUqAmrAj/wGfLLTx3ZAwgEkSS1SSSJtfeBUlqIKWEkmJHw5ITcHrRECQ9xIU13Vg23fM0WJknSbHJkDSNl72bfqnTbT0ycu+2dfSJwHrZGycw3arDgNoRi7gQifprpsdVlKTtR3oUYcoLXO6ItmDFQ5KF5gDoZI6yX2oxrbO5kzR34vI=">
+      <div id="InnerContainerFor-TenureTypes" data-zdn="TenureTypes">
+        <div class="row">
+          <div class="col-xs-12 col-lg-12 col-xl-12" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+            <div class="panel panel-inverse  ">
+              <div class="panel-heading">
+                <div class="panel-heading-btn"> <a title="" class="btn btn-sm btn-icon btn-circle btn-default" href="javascript:;" data-zck="expand"><span class="readers">Expand/Compress Tenure Types</span><i class="fa fa-expand"></i></a> <a title="" class="btn btn-sm btn-icon btn-circle btn-warning" href="javascript:;" data-zck="collapse"><span class="readers">Collapse Tenure Types</span><i class="fa fa-minus"></i></a> </div>
+                <h2 class="panel-title" id="jl4">Tenure Types</h2>
+              </div>
+              <div class="panel-body " id="group-TenureTypes_Tenure_Types">
+                <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-TenureTypes_TenureTypes" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+                  <fieldset class="fieldset-group">
+                    <legend>
+                    <label class="control-label " for="TenureTypes_TenureTypes">What types of employment are you looking for?<span title="Required" class="req"><span class="readers">Required</span><i class="fa fa-asterisk"></i></span></label>
+                    <a class="errorTip"
+                          role="presentation" style="display: none;" href="javascript:;" data-zet="TenureTypes.TenureTypes"><span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="TenureTypes.TenureTypes"></span></a> </legend>
+                    <div id="InnerContainerFor-TenureTypes_TenureTypes">
+                      <ul class="check-box-list">
+                        <li>
+                          <div class="checkbox">
+                            <input id="CheckAllFor-TenureTypes_TenureTypes" type="checkbox">
+                            <label for="CheckAllFor-TenureTypes_TenureTypes">Check all</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="TenureTypes.TenureTypes" id="TenureTypes_TenureTypes" type="checkbox" checked="checked" value="C" data-val-required="You must have at least one Tenure types checked." data-val="true" data-zdn="What types of employment are you looking for?"
+                                data-zrot="disabled" data-zcl="True" data-dv="true">
+                            <label for="TenureTypes_TenureTypes">Casual position</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="TenureTypes.TenureTypes" id="TenureTypes_TenureTypes-1" type="checkbox" checked="checked" value="F" data-val-required="You must have at least one Tenure types checked." data-val="true" data-zdn="What types of employment are you looking for?"
+                                data-zrot="disabled" data-zcl="True" data-dv="true">
+                            <label for="TenureTypes_TenureTypes-1">Full time position</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="TenureTypes.TenureTypes" id="TenureTypes_TenureTypes-2" type="checkbox" checked="checked" value="P" data-val-required="You must have at least one Tenure types checked." data-val="true" data-zdn="What types of employment are you looking for?"
+                                data-zrot="disabled" data-zcl="True" data-dv="true">
+                            <label for="TenureTypes_TenureTypes-2">Part time position</label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <!--column size div tag for property-->
+                  </fieldset>
+                </div>
+              </div>
+              <!--panel-body --> 
+            </div>
+            <!--panel-inverse--> 
+          </div>
+          <!--Closing DIV for Visible/Hidden for group fieldset--> 
+        </div>
+        <!--Row Div-->
+        <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-TenureTypes_JobSeekerId" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+          <div id="InnerContainerFor-TenureTypes_JobSeekerId">
+            <input name="TenureTypes.JobSeekerId" id="TenureTypes_JobSeekerId" type="hidden" value="480362609" data-val-required="The JobSeekerId field is required." data-val="true" data-val-number="The field JobSeekerId must be a number.">
+          </div>
+        </div>
+        <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-TenureTypes_CanEditProfile" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+          <div id="InnerContainerFor-TenureTypes_CanEditProfile">
+            <input name="TenureTypes.CanEditProfile" id="TenureTypes_CanEditProfile" type="hidden" value="True" data-val-required="The CanEditProfile field is required." data-val="true">
+          </div>
+        </div>
+      </div>
+      <!--column size div tag for property--> 
+    </div>
+  </div>
+  <!--Closing DIV for Visible/Hidden for group fieldset--> 
+</div>
+<!--Row Div-->
+<div class="row">
+  <div class="col-xs-12 col-lg-12 col-xl-12 islogical islogical" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+    <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-JobTypes" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;" data-zpnip="JobTypes" data-zpt="9fm+Fr4hx3llgK4J2WUi0q2bBvXeHctJ/1yOQzZsTZZmeVr8PqouFEu8iOEA9N3OqgD9wx9qV5P2xF49Yg98vcps0OkzY1qjHlRc3HLtrdAy0toq8VFGALN4xvn3TSrpvJq+hsE6w/2ND31P98+1kF9RuAl5jKDfXjjC7L2f8hp+XyX8EnWaP6rztwTelR61Bdco786QCsDl5YdwxlmWvjqyq0o=">
+      <div id="InnerContainerFor-JobTypes" data-zdn="JobTypes">
+        <div class="row">
+          <div class="col-xs-12 col-lg-12 col-xl-12" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+            <div class="panel panel-inverse  ">
+              <div class="panel-heading">
+                <div class="panel-heading-btn"> <a title="" class="btn btn-sm btn-icon btn-circle btn-default" href="javascript:;" data-zck="expand"><span class="readers">Expand/Compress Job Types</span><i class="fa fa-expand"></i></a> <a title="" class="btn btn-sm btn-icon btn-circle btn-warning" href="javascript:;" data-zck="collapse"><span class="readers">Collapse Job Types</span><i class="fa fa-minus"></i></a> </div>
+                <h2 class="panel-title" id="jl5">Job Types</h2>
+              </div>
+              <div class="panel-body " id="group-JobTypes_Job_Types">
+                <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-JobTypes_JobTypes" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+                  <fieldset class="fieldset-group">
+                    <legend>
+                    <label class="control-label " for="JobTypes_JobTypes">I am interested in:</label>
+                    <a class="errorTip" role="presentation" style="display: none;" href="javascript:;" data-zet="JobTypes.JobTypes"><span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="JobTypes.JobTypes"></span></a> </legend>
+                    <div id="InnerContainerFor-JobTypes_JobTypes">
+                      <ul class="check-box-list">
+                        <li>
+                          <div class="checkbox">
+                            <input id="CheckAllFor-JobTypes_JobTypes" type="checkbox">
+                            <label for="CheckAllFor-JobTypes_JobTypes">Check all</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="JobTypes.JobTypes" id="JobTypes_JobTypes" type="checkbox" checked="checked" value="A" data-zdn="I am interested in:" data-zrot="disabled" data-zcl="True" data-dv="true">
+                            <label for="JobTypes_JobTypes">Apprenticeships or Traineeships</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="JobTypes.JobTypes" id="JobTypes_JobTypes-1" type="checkbox" value="D" data-zdn="I am interested in:" data-zrot="disabled" data-zcl="True">
+                            <label for="JobTypes_JobTypes-1">Graduate Positions</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="JobTypes.JobTypes" id="JobTypes_JobTypes-2" type="checkbox" value="I" data-zdn="I am interested in:" data-zrot="disabled" data-zcl="True">
+                            <label for="JobTypes_JobTypes-2">Indigenous Identified Positions</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="JobTypes.JobTypes" id="JobTypes_JobTypes-3" type="checkbox" checked="checked" value="R" data-zdn="I am interested in:" data-zrot="disabled" data-zcl="True" data-dv="true">
+                            <label for="JobTypes_JobTypes-3">Relocating for Suitable Positions</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="JobTypes.JobTypes" id="JobTypes_JobTypes-4" type="checkbox" value="S" data-zdn="I am interested in:" data-zrot="disabled" data-zcl="True">
+                            <label for="JobTypes_JobTypes-4">Shift Work Positions</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="JobTypes.JobTypes" id="JobTypes_JobTypes-5" type="checkbox" value="Y" data-zdn="I am interested in:" data-zrot="disabled" data-zcl="True">
+                            <label for="JobTypes_JobTypes-5">Fly in - Fly out Jobs</label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <!--column size div tag for property-->
+                  </fieldset>
+                </div>
+              </div>
+              <!--panel-body --> 
+            </div>
+            <!--panel-inverse--> 
+          </div>
+          <!--Closing DIV for Visible/Hidden for group fieldset--> 
+        </div>
+        <!--Row Div-->
+        <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-JobTypes_JobSeekerId" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+          <div id="InnerContainerFor-JobTypes_JobSeekerId">
+            <input name="JobTypes.JobSeekerId" id="JobTypes_JobSeekerId" type="hidden" value="480362609" data-val-required="The JobSeekerId field is required." data-val="true" data-val-number="The field JobSeekerId must be a number.">
+          </div>
+        </div>
+        <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-JobTypes_CanEditProfile" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+          <div id="InnerContainerFor-JobTypes_CanEditProfile">
+            <input name="JobTypes.CanEditProfile" id="JobTypes_CanEditProfile" type="hidden" value="True" data-val-required="The CanEditProfile field is required." data-val="true">
+          </div>
+        </div>
+      </div>
+      <!--column size div tag for property--> 
+    </div>
+  </div>
+  <!--Closing DIV for Visible/Hidden for group fieldset--> 
+</div>
+<!--Row Div-->
+<div class="row">
+  <div class="col-xs-12 col-lg-12 col-xl-12 islogical islogical" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+    <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Availability" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;" data-zpnip="Availability" data-zpt="EJ8bY9PNp+eAgG61zvLomise/Vs54B7zZadF0b0UwuvwPiahESkhvWpfHCtUPUEgwS2X3WwdFryJ3X/Pt93eWoXVJOUPYINaJAWa1U8NJ5g67BWaTl+2mYc/cOA8A2TQ1yaPVIOEbfw9vhdPZNeHolbWnl9YKIy4eiPyjVVUsfrlOt6csp1d07NbL8nSAYFj9g+DpjgPDJiZVrZSkH/e6ByAarQ=">
+      <div id="InnerContainerFor-Availability" data-zdn="Availability">
+        <div class="row">
+          <div class="col-xs-12 col-lg-12 col-xl-12" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+            <div class="panel panel-inverse  ">
+              <div class="panel-heading">
+                <div class="panel-heading-btn"> <a title="" class="btn btn-sm btn-icon btn-circle btn-default" href="javascript:;" data-zck="expand"><span class="readers">Expand/Compress Availability</span><i class="fa fa-expand"></i></a> <a title="" class="btn btn-sm btn-icon btn-circle btn-warning" href="javascript:;" data-zck="collapse"><span class="readers">Collapse Availability</span><i class="fa fa-minus"></i></a> </div>
+                <h2 class="panel-title" id="jl6">Availability</h2>
+              </div>
+              <div class="panel-body " id="group-Availability_Availability">
+                <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Availability_Availability" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+                  <fieldset class="fieldset-group">
+                    <legend>
+                    <label class="control-label " for="Availability_Availability">I am available on:<span title="Required" class="req"><span class="readers">Required</span><i class="fa fa-asterisk"></i></span></label>
+                    <a class="errorTip" role="presentation"
+                          style="display: none;" href="javascript:;" data-zet="Availability.Availability"><span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="Availability.Availability"></span></a> </legend>
+                    <div id="InnerContainerFor-Availability_Availability">
+                      <ul class="check-box-list">
+                        <li>
+                          <div class="checkbox">
+                            <input id="CheckAllFor-Availability_Availability" type="checkbox">
+                            <label for="CheckAllFor-Availability_Availability">Check all</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability" type="checkbox" checked="checked" value="MON_MORN" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True" data-dv="true">
+                            <label for="Availability_Availability">Monday - Mornings</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-1" type="checkbox" checked="checked" value="MON_AFTE" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True" data-dv="true">
+                            <label for="Availability_Availability-1">Monday - Afternoons</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-2" type="checkbox" value="MON_NIGH" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True">
+                            <label for="Availability_Availability-2">Monday - Nights</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-3" type="checkbox" checked="checked" value="TUE_MORN" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True" data-dv="true">
+                            <label for="Availability_Availability-3">Tuesday - Mornings</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-4" type="checkbox" checked="checked" value="TUE_AFTE" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True" data-dv="true">
+                            <label for="Availability_Availability-4">Tuesday - Afternoons</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-5" type="checkbox" value="TUE_NIGH" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True">
+                            <label for="Availability_Availability-5">Tuesday - Nights</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-6" type="checkbox" checked="checked" value="WED_MORN" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True" data-dv="true">
+                            <label for="Availability_Availability-6">Wednesday - Mornings</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-7" type="checkbox" checked="checked" value="WED_AFTE" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True" data-dv="true">
+                            <label for="Availability_Availability-7">Wednesday - Afternoons</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-8" type="checkbox" value="WED_NIGH" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True">
+                            <label for="Availability_Availability-8">Wednesday - Nights</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-9" type="checkbox" checked="checked" value="THU_MORN" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True" data-dv="true">
+                            <label for="Availability_Availability-9">Thursday - Mornings</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-10" type="checkbox" checked="checked" value="THU_AFTE" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True" data-dv="true">
+                            <label for="Availability_Availability-10">Thursday - Afternoons</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-11" type="checkbox" value="THU_NIGH" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True">
+                            <label for="Availability_Availability-11">Thursday - Nights</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-12" type="checkbox" value="FRI_MORN" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True">
+                            <label for="Availability_Availability-12">Friday - Mornings</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-13" type="checkbox" value="FRI_AFTE" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True">
+                            <label for="Availability_Availability-13">Friday - Afternoons</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-14" type="checkbox" value="FRI_NIGH" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True">
+                            <label for="Availability_Availability-14">Friday - Nights</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-15" type="checkbox" value="SAT_MORN" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True">
+                            <label for="Availability_Availability-15">Saturday - Mornings</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-16" type="checkbox" value="SAT_AFTE" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True">
+                            <label for="Availability_Availability-16">Saturday - Afternoons</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-17" type="checkbox" value="SAT_NIGH" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True">
+                            <label for="Availability_Availability-17">Saturday - Nights</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-18" type="checkbox" value="SUN_MORN" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True">
+                            <label for="Availability_Availability-18">Sunday - Mornings</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-19" type="checkbox" value="SUN_AFTE" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True">
+                            <label for="Availability_Availability-19">Sunday - Afternoons</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="checkbox">
+                            <input name="Availability.Availability" id="Availability_Availability-20" type="checkbox" value="SUN_NIGH" data-val-required="Please select at least one option for your availability." data-val="true" data-zdn="I am available on:"
+                                data-zrot="disabled" data-zcl="True">
+                            <label for="Availability_Availability-20">Sunday - Nights</label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <!--column size div tag for property-->
+                  </fieldset>
+                </div>
+              </div>
+              <!--panel-body --> 
+            </div>
+            <!--panel-inverse--> 
+          </div>
+          <!--Closing DIV for Visible/Hidden for group fieldset--> 
+        </div>
+        <!--Row Div-->
+        <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Availability_JobSeekerId" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+          <div id="InnerContainerFor-Availability_JobSeekerId">
+            <input name="Availability.JobSeekerId" id="Availability_JobSeekerId" type="hidden" value="480362609" data-val-required="The JobSeekerId field is required." data-val="true" data-val-number="The field JobSeekerId must be a number.">
+          </div>
+        </div>
+        <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-Availability_CanEditProfile" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+          <div id="InnerContainerFor-Availability_CanEditProfile">
+            <input name="Availability.CanEditProfile" id="Availability_CanEditProfile" type="hidden" value="True" data-val-required="The CanEditProfile field is required." data-val="true">
+          </div>
+        </div>
+      </div>
+      <!--column size div tag for property--> 
+    </div>
+  </div>
+  <!--Closing DIV for Visible/Hidden for group fieldset--> 
+</div>
+<!--Row Div-->
+<div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-JobSeekerId" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+  <div id="InnerContainerFor-JobSeekerId">
+    <input name="JobSeekerId" id="JobSeekerId" type="hidden" value="480362609" data-val-required="The JobSeekerId field is required." data-val="true" data-val-number="The field JobSeekerId must be a number.">
+  </div>
+</div>
+<div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-CanEditProfile" style="width: calc(100% - 0px); margin-right: 0px; margin-left: 0px;">
+  <div id="InnerContainerFor-CanEditProfile">
+    <input name="CanEditProfile" id="CanEditProfile" type="hidden" value="True" data-val-required="The CanEditProfile field is required." data-val="true">
+  </div>
+</div>
+<div class="txtR noPad nestedButtons">
+  <button name="submitType" class="btn-primary btn" type="submit" id="submit-button" value="Submit">Submit</button>
+  <button name="submitType" class="cancel btn-inverse btn" type="submit" value="Cancel">Cancel</button>
+</div>
+</form>
+</div>
+<div class="theme-panel" style="top: 100px; z-index: 1020;"> <a title="" class="theme-collapse-btn ui-sortable" href="javascript:;" data-original-title="Job Seeker (Alt+Q)" data-click="theme-panel-expand" data-ztt="left"><i class="fa fa-user"></i><span class="readers">open job seeker Resource Finder (Alt+Q)</span></a>
+  <div class="theme-panel-content" style="display: none;">
+    <div class="history">
+      <form method="GET" novalidate>
+        <h3 data-zu="#">Quick Find</h3>
+        <label class="readers" for="zqf-260">job seeker quick find</label>
+        <label for="zqf-260">Enter Id: <a class="hintTip" role="presentation" href="javascript:;"><span>Help tip: ID needs to include 7 to 10 digits. An incomplete ID will return no match. Selecting a record will reload the page.</span></a></label>
+        <div class="qf-method qf-method-search">
+          <select class="rhea-ajax" id="zqf-260" style="display: none;" multiple="multiple" data-zu="#" data-zrot="disabled" data-zlz="true">
+          </select>
+          <div class="amc-aria-multi-complete single-select">
+            <input class="form-control" style="display: none;" aria-label="job seeker quick find" type="text" readonly>
+            <div tabindex="0" class="amc-box form-control" role="application" aria-expanded="false"><i class="fa fa-search right-icon"></i><span class="reader-only" id="amc-2-selected-label">Selected values for autocomplete job seeker quick find. Press enter to view list options.</span>
+              <ul class="amc-selected-choices" aria-labelledby="amc-2-selected-label">
+              </ul>
+            </div>
+            <div class="amc-listbox" style="display: none;">
+              <input class="form-control" role="combobox" aria-multiselectable="true" aria-activedescendant="" aria-owns="amc-2-list" aria-autocomplete="list" aria-label="Select job seeker quick find, start typing then use tab key so access values" type="text">
+              <div
+                  class="amc-list-substitute" aria-hidden="true" style="display: none;">Loading...</div>
+              <div class="amc-list-substitute" aria-hidden="true" style="display: none;">No matches</div>
+              <div class="amc-list-substitute" aria-hidden="true" style="display: none;">Error</div>
+              <ul class="amc-all-choices" id="amc-2-list" style="display: none;">
+              </ul>
+              <div tabindex="0" class="reader-only"></div>
+            </div>
+            <div class="reader-only" aria-live="assertive" aria-relevant="additions"><span></span></div>
+          </div>
+        </div>
+      </form>
+      <h3>Last Accessed</h3>
+      <button class="unpin-all" type="button" data-zu="#" data-zht="JobSeeker">Unpin all records</button>
+      <ul id="history_job_seeker" data-zpc="0">
+        <li data-zov="jobseekerid=480362609"><a href="#">Jill Citizen (ID:123456789)</a><a class="history-pin" href="#" data-zu="#" data-zht="JobSeeker" data-zov="jobseekerid=480362609"
+            data-zhd="job seeker"><span class="readers">Pin Jill Citizen (ID:123456789) record to list</span><i class="fa-thumb-tack fa-2x fa"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<a class="btn btn-icon btn-circle btn-primary btn-scroll-to-top hidden" href="javascript:;" data-click="scroll-top"><i class="fa fa-angle-up"></i></a>
+</div>
+<div id="msgLegacy"><a title="Your internet browser is not supported. Click here for update info. (opens in a new window)" href="http://windows.microsoft.com/en-us/internet-explorer/products/ie/home" target="_blank">Your internet browser is not supported. Click here for update info.</a></div>
+<div class="modal modal-message fade" id="contract_modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close" aria-hidden="true" type="button" data-dismiss="modal">×</button>
+        <h4 class="modal-title">Contract picker</h4>
+      </div>
+      <div class="modal-body">
+        <h3>Choose a contract</h3>
+        <a class="contract-picker" href="javascript:;">
+        <div class="bg-green widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fa fa-user"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">jobactive</div>
+          <div class="stats-desc">EPS5</div>
+        </div>
+        </a> <a class="contract-picker" href="javascript:;">
+        <div class="bg-red widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-torso-business"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">Work for the Dole Coordinator</div>
+          <div class="stats-desc">WDC5</div>
+        </div>
+        </a> <a class="contract-picker" href="javascript:;">
+        <div class="bg-purple widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fa fa-lightbulb-o"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">NEIS New Enterprise Incentive Scheme</div>
+          <div class="stats-desc">NEI5</div>
+        </div>
+        </a> <a class="contract-picker" href="javascript:;">
+        <div class="bg-orange widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fa fa-leaf"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">Harvest Labour Services</div>
+          <div class="stats-desc">HLS5</div>
+        </div>
+        </a> <a class="contract-picker" href="javascript:;">
+        <div class="bg-blue widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-universal-access"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">DES - Disability Management Service</div>
+          <div class="stats-desc">DESA</div>
+        </div>
+        </a> <a class="contract-picker" href="javascript:;">
+        <div class="bg-aqua widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-male-female"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">DES - Employment Support Service</div>
+          <div class="stats-desc">DESB</div>
+        </div>
+        </a> <a class="contract-picker" href="javascript:;">
+        <div class="bg-magenta widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-shuffle"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">Transition to Work</div>
+          <div class="stats-desc">TTW5</div>
+        </div>
+        </a> <a class="contract-picker" href="javascript:;">
+        <div class="bg-violet widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fa fa-child"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">ParentsNext</div>
+          <div class="stats-desc">SPP5</div>
+        </div>
+        </a> <a class="contract-picker" href="javascript:;">
+        <div class="bg-lime widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-clipboard-notes"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">DES - National Panel of Assessors</div>
+          <div class="stats-desc">NPA</div>
+        </div>
+        </a> <a class="contract-picker" href="javascript:;">
+        <div class="bg-yellow widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-results-demographics"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">DES - JobAccess Provider</div>
+          <div class="stats-desc">JAP</div>
+        </div>
+        </a> <a class="contract-picker" href="javascript:;">
+        <div class="bg-darkpurple widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-puzzle"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">ESAt/ JCA</div>
+          <div class="stats-desc">CWCA</div>
+        </div>
+        </a> </div>
+      <div class="modal-footer"><a class="btn btn-sm btn-white" href="javascript:;" data-dismiss="modal">Close</a></div>
+    </div>
+  </div>
+</div>
+<div class="hidden" aria-hidden="true" data-ak="true">{"QuickFindAccessKey":"alt+q","JumpToAccessKey":"alt+j","MenuSearchFilter":"alt+s","FocusRightSidebar":"alt+r","GoToAddressBar":"alt+d"}</div>
+<div style="left: -9999px; top: -9999px; position: absolute;"></div>
+<div id="zeus-alert" data-zeus-alerts="[]"></div>
+<script type="text/javascript">
+var loop11_key = "e6982848c51744c9f8559bbbb618d714fd589d30";
+  var l11_clientOptions = {"crossDomainSupport":true};
+document.write(unescape("%3cscript src='//cdn.loop11.com/my/loop11.js' type='text/javascript'%3e%3c/script%3e"));
+</script> 
+<script>
+$( "#occupations-button" ).click(function() {
+  $("#occupations-form123 input:checkbox:checked").each(function() {
+    $("#occupations-list").append('<li>'+ $(this).attr('value') +'</li>');
+    $(this).parent().remove(); // do your staff with each checkbox
+}); 
+  alert( "Occupations added!" );
+});
+
+$( "#submit-button" ).click(function() {
+ alert("Successfully submitted!");
+  }); 
+  </script>
+</body>
+</html>
